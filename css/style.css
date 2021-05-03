@@ -602,6 +602,9 @@ ul li {
     max-height: 62vh;
     max-width: 100%;
   }
+  .bg-lets {
+    background: #ebebeb;
+  }
 }
 @media (max-width: 600px) {
   .header-proyect {
