@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="590px" height="387px" viewBox="0 0 590 387" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 20</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="176" height="170"></rect>
+        <filter x="-11.6%" y="-6.2%" width="123.3%" height="124.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.316696487 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="176" height="170"></rect>
+        <filter x="-11.6%" y="-6.2%" width="123.3%" height="124.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.316696487 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="176" height="170"></rect>
+        <filter x="-11.6%" y="-6.2%" width="123.3%" height="124.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.316696487 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="176" height="170"></rect>
+        <filter x="-11.6%" y="-6.2%" width="123.3%" height="124.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.316696487 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="176" height="170"></rect>
+        <filter x="-11.6%" y="-6.2%" width="123.3%" height="124.7%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.316696487 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lets" transform="translate(-373.000000, -3875.000000)">
+            <g id="Group-20" transform="translate(383.000000, 3875.000000)">
+                <g id="Group-12">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFF094" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="There-is-a-lot-of-in" font-family="Kalam-Regular, Kalam" font-size="17" font-weight="normal" letter-spacing="-0.607142857" fill="#333333">
+                        <tspan x="25" y="34">There is a lot of </tspan>
+                        <tspan x="25" y="61">information spread </tspan>
+                        <tspan x="25" y="88">on different social </tspan>
+                        <tspan x="25" y="115">media or websites.</tspan>
+                    </text>
+                </g>
+                <g id="Group-13" transform="translate(0.000000, 196.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#A8D380" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <text id="They-don't-want-to-w" font-family="Kalam-Regular, Kalam" font-size="17" font-weight="normal" letter-spacing="-0.607142857" fill="#333333">
+                        <tspan x="25" y="34">They don't want to </tspan>
+                        <tspan x="25" y="61">waste time checking </tspan>
+                        <tspan x="25" y="88">every social media, </tspan>
+                        <tspan x="25" y="115">because they decide </tspan>
+                        <tspan x="25" y="142">on the spot.</tspan>
+                    </text>
+                </g>
+                <g id="Group-13-Copy" transform="translate(197.000000, 196.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#80C0D3" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <text id="Word-of-mouth-is-by" font-family="Kalam-Regular, Kalam" font-size="17" font-weight="normal" letter-spacing="-0.607142857" fill="#333333">
+                        <tspan x="25" y="34">Word of mouth is </tspan>
+                        <tspan x="25" y="61">by far the most </tspan>
+                        <tspan x="25" y="88">used to find places.</tspan>
+                    </text>
+                </g>
+                <g id="Group-15" transform="translate(197.000000, 0.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use fill="#FFA994" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                    <text id="They-are-concern-abo" font-family="Kalam-Regular, Kalam" font-size="17" font-weight="normal" letter-spacing="-0.607142857" fill="#333333">
+                        <tspan x="25" y="34">They are concern </tspan>
+                        <tspan x="25" y="61">about the </tspan>
+                        <tspan x="25" y="88">availability of the </tspan>
+                        <tspan x="25" y="115">place, due pandemic</tspan>
+                    </text>
+                </g>
+                <g id="Group-14" transform="translate(394.000000, 0.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        <use fill="#FFF094" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    </g>
+                    <text id="They-want-to-enjoy-a" font-family="Kalam-Regular, Kalam" font-size="17" font-weight="normal" letter-spacing="-0.607142857" fill="#333333">
+                        <tspan x="24" y="34">They want to enjoy </tspan>
+                        <tspan x="24" y="61">a weekend without </tspan>
+                        <tspan x="24" y="88">thinking too much </tspan>
+                        <tspan x="24" y="115">to find the right </tspan>
+                        <tspan x="24" y="142">place or event.</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
