@@ -514,6 +514,11 @@ ul li {
 }
 /*Responsive****
 **********************************************/
+@media (max-width: 1300px) {
+  .lets .iphone {
+    max-width: 50vw;
+  }
+}
 @media (max-width: 1199.98px) {
   .bg-ecomeal {
     background: #fdf4ea url(../img/Ecomeal/bg-problem-statement.png) no-repeat
