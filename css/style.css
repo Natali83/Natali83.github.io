@@ -563,8 +563,7 @@ ul li {
   .lets .iphone {
     bottom: -24vh;
     right: 2%;
-    max-height: 62vh;
-    max-width: 80%;
+    max-height: 70vh;
   }
   .bg-lets {
     background: #ebebeb url(../img/Lets/bg-problem-statement.png) no-repeat 130%
