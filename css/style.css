@@ -60,9 +60,10 @@ img {
 }
 .nat h1 {
   text-align: left;
-  font-size: 70px;
+  font-size: 5rem;
   font-weight: 500;
   color: #000;
+  letter-spacing: -3px;
 }
 .nat p {
   font-size: 1.2rem;
@@ -105,7 +106,7 @@ img {
   letter-spacing: 0;
 }
 .point h3 {
-  font-size: 14px;
+  font-size: 1rem;
   color: #222222;
   letter-spacing: 0.2px;
   line-height: 18px;
@@ -114,7 +115,7 @@ img {
   border-top: 2px solid #b0c6ca;
 }
 .title {
-  font-size: 2.7rem;
+  font-size: 3rem;
   font-weight: 500;
   margin-bottom: 15vh;
   margin-top: 10vh;
@@ -212,6 +213,8 @@ ul li.title {
   font-weight: 600;
   padding-top: 10px;
   color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 4px;
 }
 /*Carousel*/
 .carousel {
@@ -636,10 +639,10 @@ ul li {
     max-width: 90%;
   }
   .nat h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .point h3 {
-    font-size: 13px;
+    font-size: 0.9rem;
   }
   .bg-ecomeal {
     background: #fdf4e9;
