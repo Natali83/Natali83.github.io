@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="296px" height="296px" viewBox="0 0 296 296" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>iconfinder_Emoji-18_5159524</title>
+    <defs>
+        <filter x="-165.1%" y="-165.1%" width="430.2%" height="430.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="21" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="26.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.252480354 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Surveys" transform="translate(-258.000000, -301.000000)" fill-rule="nonzero">
+            <g id="iconfinder_Emoji-18_5159524" filter="url(#filter-1)" transform="translate(363.000000, 406.000000)">
+                <path d="M43,0.5 C66.4721019,0.5 85.5,19.5278981 85.5,43 C85.5,66.4721019 66.4721019,85.5 43,85.5 C19.5278981,85.5 0.5,66.4721019 0.5,43 C0.5,19.5278981 19.5278981,0.5 43,0.5 L43,0.5 Z" id="Path" fill="#FFBF0B"></path>
+                <path d="M26.71,28.26 C30.620176,28.26 33.79,31.429824 33.79,35.34 C33.79,39.250176 30.620176,42.42 26.71,42.42 C22.799824,42.42 19.63,39.250176 19.63,35.34 C19.63,33.4622673 20.3759264,31.6614415 21.703684,30.333684 C23.0314415,29.0059264 24.8322673,28.26 26.71,28.26 L26.71,28.26 Z" id="Path" fill="#54270A"></path>
+                <path d="M59.29,28.26 C63.200176,28.26 66.37,31.429824 66.37,35.34 C66.37,39.250176 63.200176,42.42 59.29,42.42 C55.379824,42.42 52.21,39.250176 52.21,35.34 C52.21,33.4622673 52.9559264,31.6614415 54.283684,30.333684 C55.6114415,29.0059264 57.4122673,28.26 59.29,28.26 Z" id="Path" fill="#54270A"></path>
+                <path d="M60.83,54.73 C49.34,62.73 36.59,62.73 25.18,54.73 C23.8,53.73 22.56,55.43 23.49,56.96 C27.6937575,63.6811529 35.0624863,67.7636891 42.99,67.7636891 C50.9175137,67.7636891 58.2862425,63.6811529 62.49,56.96 C63.44,55.43 62.2,53.77 60.83,54.73 Z" id="Path" fill="#54270A"></path>
+            </g>
+        </g>
+    </g>
+</svg>
