@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,600;8..144,700;8..144,900&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,10 +18,10 @@ body strong {
   font-weight: 600;
 }
 a {
-  color: #555555;
+  color: #444;
 }
 a:hover {
-  color: #517c83;
+  color: #e29a77;
   text-decoration: underline;
 }
 img {
@@ -27,10 +29,13 @@ img {
 }
 /*Index****
 **********************************************/
+.robotoSerif{
+  font-family: 'Roboto Serif', serif;
+  line-height: 1;
+}
 .kalam {
-  font-family: "Kalam", cursive;
-  font-size: 4.1rem;
-  font-weight: 100;
+  font-family: 'Roboto Serif', serif;
+  line-height: 1;
 }
 .kalam span {
   color: #517c83;
@@ -40,9 +45,11 @@ img {
   font-weight: bold;
   bottom: 0;
   position: relative;
-  color: #517c83;
+  color: #f4a782;
   display: flex;
   align-items: center;
+  font-family: 'Roboto Serif', serif;
+  line-height: 1;
 }
 
 .nav-link {
@@ -60,10 +67,14 @@ img {
 }
 .nat h1 {
   text-align: left;
-  font-size: 5rem;
-  font-weight: 500;
-  color: #000;
-  letter-spacing: -3px;
+  font-size: 5.6rem;
+  font-weight: 600;
+  color: #48444a;
+  letter-spacing: 0px;
+  margin-bottom: 2rem !important;
+}
+.nat h1 span{
+  color: #f4a782;
 }
 .nat p {
   font-size: 1.2rem;
@@ -95,30 +106,30 @@ img {
 .dot {
   position: absolute;
   left: 0;
-  top: -3px;
+  top: -24px;
 }
 .init {
   flex-grow: 2;
 }
 .point span {
   font-size: 16px;
-  color: #666666;
+  color: #a3a3a3;
   letter-spacing: 0;
 }
 .point h3 {
   font-size: 1rem;
   color: #222222;
   letter-spacing: 0.2px;
-  line-height: 18px;
+  line-height: 8px;
 }
 .border-divisor {
-  border-top: 2px solid #b0c6ca;
+  border-top: 2px solid #a59a95;
 }
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 500;
-  margin-bottom: 15vh;
-  margin-top: 10vh;
+  margin-bottom: 12vh;
+  margin-top: 8vh;
   color: #000;
 }
 ul li.title {
@@ -160,7 +171,8 @@ ul li.title {
 
 .pro-content p {
   max-width: 370px;
-  font-weight: 400;
+  font-weight: 300;
+  line-height: 150%;
 }
 .pro-content p span {
   display: block;
@@ -171,10 +183,10 @@ ul li.title {
   color: #222;
 }
 .pro-content h1 {
-  font-family: "Kalam", cursive;
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: #000;
+  font-family: 'Roboto Serif', serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #48444a;
 }
 
 .sub {
@@ -185,20 +197,21 @@ ul li.title {
   font-weight: 400;
   margin-bottom: 14px;
   margin-top: 10px;
+  line-height: 140%;
 }
 .button {
   width: 180px;
   padding: 12px 10px;
-  border: 1px solid #47b2b6;
+  border: 1px solid #f4a782;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
   display: inline-block !important;
   font-weight: 500;
-  color: #47b2b6;
+  color: #f4a782;
 }
 .button:hover {
-  border-color: #517c83;
+  border-color: #e29a77;
 }
 .pro-media img {
   max-width: 100%;
@@ -210,11 +223,12 @@ ul li.title {
 .about > span {
   text-align: left;
   display: block;
-  font-weight: 600;
+  font-weight: 700;
   padding-top: 10px;
-  color: #666;
-  font-size: 1.2rem;
-  margin-bottom: 4px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  color: #222;
 }
 /*Carousel*/
 .carousel {
