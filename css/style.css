@@ -57,7 +57,12 @@ img {
   letter-spacing: 0.4px;
   font-size: 1.1rem;
 }
-
+.nav.redes img{
+  width: 30px;
+}
+.nav.redes.pt-5 .p-2:first-child{
+  padding-left: 0 !important;
+}
 .nat {
   max-width: 32vw;
   min-width: 580px;
