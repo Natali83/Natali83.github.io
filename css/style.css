@@ -42,7 +42,7 @@ img {
 }
 .navbar-brand {
   font-size: 1.6rem;
-  font-weight: bold;
+  font-weight: 900;
   bottom: 0;
   position: relative;
   color: #f4a782;
@@ -53,7 +53,7 @@ img {
 }
 
 .nav-link {
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.4px;
   font-size: 1.1rem;
 }
@@ -68,7 +68,7 @@ img {
 .nat h1 {
   text-align: left;
   font-size: 5.6rem;
-  font-weight: 600;
+  font-weight: 800;
   color: #48444a;
   letter-spacing: 0px;
   margin-bottom: 2rem !important;
@@ -118,9 +118,10 @@ img {
 }
 .point h3 {
   font-size: 1rem;
-  color: #222222;
+  color: #444;
   letter-spacing: 0.2px;
   line-height: 8px;
+  font-weight: 400;
 }
 .border-divisor {
   border-top: 2px solid #a59a95;
@@ -715,6 +716,7 @@ p.speech {
     flex-direction: column;
   }
   .navbar .redes {
+    display: none;
     margin-top: 10px;
   }
   .navbar .redes .social-icon img {
@@ -731,8 +733,11 @@ p.speech {
   .nat h1 {
     font-size: 4rem;
   }
+  .point{
+    padding-top: 16px;
+  }
   .point h3 {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
   .bg-ecomeal {
     background: #fdf4e9;
