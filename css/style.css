@@ -45,7 +45,7 @@ img {
   font-weight: 900;
   bottom: 0;
   position: relative;
-  color: #f4a782;
+  color: #F26B2A;
   display: flex;
   align-items: center;
   font-family: 'Roboto Serif', serif;
@@ -79,7 +79,7 @@ img {
   margin-bottom: 2rem !important;
 }
 .nat h1 span{
-  color: #f4a782;
+  color: #F26B2A;
 }
 .nat p {
   font-size: 1.2rem;
