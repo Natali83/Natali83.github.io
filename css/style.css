@@ -73,7 +73,7 @@ img {
 .nat h1 {
   text-align: left;
   font-size: 5.6rem;
-  font-weight: 800;
+  font-weight: 600;
   color: #48444a;
   letter-spacing: 0px;
   margin-bottom: 2rem !important;
@@ -191,7 +191,7 @@ ul li.title {
 .pro-content h1 {
   font-family: 'Roboto Serif', serif;
   font-size: 2.8rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #48444a;
 }
 
