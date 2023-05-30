@@ -33,6 +33,14 @@ img {
   font-family: 'Roboto Serif', serif;
   line-height: 1;
 }
+@font-face {
+  font-family: Yorkfont;
+  src: url(NewYorkExtraLarge-Bold.otf);
+}
+.main-font{
+  font-family: Yorkfont, serif;
+  line-height: 1;
+}
 .kalam {
   font-family: 'Roboto Serif', serif;
   line-height: 1;
