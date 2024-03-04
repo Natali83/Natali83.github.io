@@ -53,7 +53,7 @@ img {
   font-weight: 900;
   bottom: 0;
   position: relative;
-  color: #F26B2A;
+  color: #f2882a;
   display: flex;
   align-items: center;
   line-height: 1;
@@ -86,13 +86,13 @@ img {
   margin-bottom: 2rem !important;
 }
 .nat h1 span{
-  color: #F26B2A;
+  color: #f2882a;
 }
 .nat p {
   font-size: 1.2rem;
   font-weight: 300;
   text-align: left;
-  line-height: 170%;
+  line-height: 200%;
 }
 .info p span {
   font-weight: 500;
