@@ -94,6 +94,11 @@ img {
   text-align: left;
   line-height: 200%;
 }
+.next, h2.next{
+    color: #a59f97;
+    font-weight: 300;
+    font-size: 1.4em;
+}
 .info p span {
   font-weight: 500;
 }
