@@ -98,6 +98,7 @@ img {
     color: #a59f97;
     font-weight: 300;
     font-size: 1.4em;
+    margin-bottom: 4em;
 }
 .info p span {
   font-weight: 500;
@@ -146,7 +147,7 @@ img {
 .title {
   font-size: 2rem;
   font-weight: 500;
-  margin-bottom: 12vh;
+  margin-bottom: 8vh;
   margin-top: 8vh;
   color: #000;
 }
