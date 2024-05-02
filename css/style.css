@@ -6,15 +6,15 @@ html {
 
 @font-face {
   font-family: SF-regular;
-  src: url(font/SF-Pro-Display-Regular.otf);
+  src: url(fonts/SF-Pro-Display-Regular.otf);
 }
 @font-face {
   font-family: SF-medium;
-  src: url(font/SF-Pro-Display-Medium.otf);
+  src: url(fonts/SF-Pro-Display-Medium.otf);
 }
 @font-face {
   font-family: SF-bold;
-  src: url(font/SF-Pro-Display-Bold.otf);
+  src: url(fonts/SF-Pro-Display-Bold.otf);
 }
 
 html,
