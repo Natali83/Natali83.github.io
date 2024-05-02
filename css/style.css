@@ -408,7 +408,7 @@ section {
 }
 .proyect p,
 ul li {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #333;
   line-height: 200%;
   letter-spacing: 0.5px;
@@ -471,7 +471,7 @@ ul li {
 }
 .name-proyect h1 {
   font-weight: bold;
-  font-size: 38px;
+  font-size: 3rem;
 }
 .cont-img {
   height: 74%;
