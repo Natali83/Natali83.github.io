@@ -408,11 +408,10 @@ section {
 }
 .proyect p,
 ul li {
-    font-size: 1rem;
-    color: #333;
-    line-height: 190%;
-    font-weight: 300;
-    letter-spacing: 0.4px;
+  font-size: 1rem;
+  color: #333;
+  line-height: 200%;
+  letter-spacing: 0.5px;
 }
 .proyect p.quest {
   font-size: 1.6rem;
