@@ -381,16 +381,16 @@ section {
   font-size: 38px;
   color: #222;
   letter-spacing: 0;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   letter-spacing: 0.6px;
 }
 .proyect h3 {
-  font-weight: 400;
-  font-size: 30px;
-  color: #333;
-  letter-spacing: 0;
-  margin-top: 10px;
-  line-height: 45px;
+font-weight: 400;
+    font-size: 30px;
+    color: #333;
+    letter-spacing: 0;
+    margin-top: 6px;
+    line-height: 36px;
 }
 .proyect h4 {
   font-weight: 700;
@@ -400,18 +400,17 @@ section {
   -webkit-font-smoothing: antialiased;
 }
 .proyect h5 {
-  font-weight: 600;
-  font-size: 18px;
-  color: #555555;
-  letter-spacing: 0;
-  margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 0;
 }
 .proyect p,
 ul li {
   font-size: 1.1rem;
   color: #333;
   line-height: 200%;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.6px;
 }
 .proyect p.quest {
   font-size: 1.6rem;
@@ -529,6 +528,7 @@ ul li {
   font-size: 15px;
   color: #444444;
   letter-spacing: 0.4px;
+  line-height: 100%;
 }
 .proyect-detail p {
   font-weight: 400;
