@@ -391,7 +391,7 @@ section {
 }
 .proyect h2 {
   font-weight: bold;
-  font-size: 38px;
+  font-size: 34px;
   color: #222;
   letter-spacing: 0;
   margin-bottom: 1.2rem;
@@ -407,11 +407,10 @@ font-weight: 400;
 }
 .proyect h4 {
 font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
     color: #222222;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     -webkit-font-smoothing: antialiased;
-    letter-spacing: 1px !important;
 }
 .proyect h5 {
     font-weight: 600;
@@ -482,6 +481,9 @@ ul li {
 .name-proyect {
   padding-top: 20px;
   padding-bottom: 50px;
+}
+.name-proyect p{
+  font-size: 1.4rem;
 }
 .name-proyect h1 {
   font-weight: bold;
