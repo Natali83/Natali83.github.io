@@ -537,17 +537,22 @@ ul li {
   max-width: 16%;
   z-index: 100;
 }
+.proyect-detail{
+  margin-top:20px;
+}
 .proyect-detail span {
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: bold;
+  font-size: 13px;
   color: #444444;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.6px;
   line-height: 100%;
+  font-family: SF-bold;
 }
 .proyect-detail p {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #666666;
+  line-height: 180%;
 }
 .color-1 {
   background-color: #fdf4ea;
