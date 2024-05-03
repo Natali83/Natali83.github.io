@@ -362,6 +362,15 @@ ul li.title {
 
 /*Proyect Details****
 **********************************************/
+.paragraph-block{
+    max-width: 600px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+}
 span.line {
   background-color: #d5d5d5;
   height: 3px;
