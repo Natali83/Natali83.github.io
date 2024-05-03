@@ -40,6 +40,10 @@ a:hover {
 }
 img {
   max-width: 100%;
+  margin: 20px 0 30px;
+}
+dl, ol, ul{
+  margin-left: -26px;
 }
 /*Index****
 **********************************************/
@@ -405,7 +409,7 @@ font-weight: 400;
   font-weight: 700;
   font-size: 23px;
   color: #222222;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   -webkit-font-smoothing: antialiased;
 }
 .proyect h5 {
@@ -418,8 +422,9 @@ font-weight: 400;
 ul li {
   font-size: 1.1rem;
   color: #333;
-  line-height: 200%;
+  line-height: 180%;
   letter-spacing: 0.6px;
+  margin-bottom: 10px;
 }
 .proyect p.quest {
   font-size: 1.6rem;
