@@ -444,7 +444,7 @@ ul li {
   color: #888;
 }
 .proyect p strong {
-  font-weight: 500;
+  font-family: SF-bold;
 }
 .proyect span {
   display: block;
