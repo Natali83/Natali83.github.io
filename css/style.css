@@ -181,7 +181,7 @@ ul li.title {
   list-style-type: none;
   padding-left: 0;
   margin-left: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px !important;
   font-family: SF-bold;
   margin-left: -15px;
 }
