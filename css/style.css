@@ -453,6 +453,7 @@ ul li {
 .proyect p strong {
   font-family: SF-medium;
   color: #444;
+  font-size: 1rem;
 }
 .proyect span {
   display: block;
