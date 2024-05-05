@@ -429,6 +429,9 @@ ul li {
   letter-spacing: 0.6px;
   margin-bottom: 4px;
 }
+.proyect ul li {
+  margin-bottom:0;
+}
 .proyect p.quest {
   font-size: 1.6rem;
   font-weight: 500;
