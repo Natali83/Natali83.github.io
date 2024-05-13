@@ -27,6 +27,8 @@ body {
   font-family: "SF-regular", sans-serif;
   color: #444;
   font-size: 0.95rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 body strong {
   font-weight: 600;
