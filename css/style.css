@@ -372,7 +372,7 @@ ul li.title {
 /*Proyect Details****
 **********************************************/
 .paragraph-block{
-    max-width: 600px;
+    max-width: 650px;
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -425,11 +425,11 @@ section {
 }
 .proyect p,
 ul li {
-  font-size: 1.1rem;
-  color: #444;
-  line-height: 168%;
-  letter-spacing: 0.4px;
-  margin-bottom: 4px;
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 178%;
+    letter-spacing: 0.4px;
+    margin-bottom: 4px;
 }
 .proyect ul li {
   margin-bottom:0;
@@ -440,7 +440,7 @@ ul li {
   line-height: 150%;
 }
 .box-text {
-  max-width: 630px;
+  max-width: 100%;
 }
 .proyect p.source {
   word-break: break-all;
