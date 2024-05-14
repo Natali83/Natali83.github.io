@@ -618,6 +618,11 @@ ul li {
 .mobile {
   display: none;
 }
+/*Grid Images*/
+.grid-image{
+  
+}
+
 /*Lets*/
 .header-proyect.lets {
   background-image: linear-gradient(
