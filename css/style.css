@@ -68,6 +68,10 @@ dl, ol, ul{
 .kalam span {
   color: #517c83;
 }
+.quote{
+  border-left: 2px solid #000;
+  padding-left: 20px;
+}
 .navbar-brand {
   font-size: 1.6rem;
   font-weight: 900;
@@ -322,6 +326,9 @@ ul li.title {
 .carousel-control-prev-icon {
   background-image: url("../img/arrow-prev.svg");
 }
+
+
+
 /*Animations*/
 
 @keyframes ballFloat {
