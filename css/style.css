@@ -509,6 +509,7 @@ ul li {
 .name-proyect h1 {
   font-weight: bold;
   font-size: 3rem;
+  font-family: 'SF-bold';
 }
 .cont-img {
   height: 74%;
@@ -762,6 +763,7 @@ p.speech {
   .proyect-detail {
     display: flex;
     flex-direction: column;
+    margin-left:0;
   }
   .proyect-detail .col {
     flex-basis: auto;
@@ -778,8 +780,29 @@ p.speech {
   .bg-lets {
     background: #ebebeb;
   }
+  .container-fluid {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .proyect p, ul li{
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
+  }
+  .proyect h3 {
+    font-size: 25px;
+    letter-spacing: 0.3px;
+  }
+  .proyect h5 {
+    font-size: 15px;
+  }
+  .proyect h2{
+    font-size:22px;
+  }
 }
 @media (max-width: 600px) {
+  .name-proyect h1{
+    font-size: 2.4rem;
+  }
   .header-proyect {
     height: 90vh;
     justify-content: end;
