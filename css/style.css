@@ -13,6 +13,10 @@ html {
   src: url(fonts/SF-Pro-Display-Medium.otf);
 }
 @font-face {
+  font-family: SF-semibold;
+  src: url(fonts/SF-Pro-Display-Semibold.otf);
+}
+@font-face {
   font-family: SF-bold;
   src: url(fonts/SF-Pro-Display-Bold.otf);
 }
@@ -516,7 +520,7 @@ ul li {
 .name-proyect h1 {
   font-weight: bold;
   font-size: 3rem;
-  font-family: 'SF-bold';
+  font-family: 'SF-semibold';
 }
 .cont-img {
   height: 74%;
