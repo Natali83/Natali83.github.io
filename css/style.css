@@ -332,7 +332,6 @@ ul li.title {
   margin-left: auto;
   margin-right: auto;
   line-height: 28px;
-  display:block;
 }
 
 /*Animations*/
@@ -751,6 +750,9 @@ p.speech {
   }
 }
 @media (max-width: 768px) {
+  .row-95{
+    display:block;
+  }
   .m-order-2 {
     order: 2;
   }
