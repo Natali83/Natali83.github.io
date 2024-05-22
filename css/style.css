@@ -41,7 +41,7 @@ a:hover {
   text-decoration: underline;
 }
 img {
-  max-width: 100%;
+  max-width: 98%;
   margin: 5px 0 30px;
 }
 dl, ol, ul{
@@ -285,7 +285,8 @@ ul li.title {
 .carousel {
   position: relative;
   margin-bottom: 50px;
-  width: 80%;
+  width: 98%;
+  margin-top: 20px;
 }
 .d-block {
   display: block !important;
