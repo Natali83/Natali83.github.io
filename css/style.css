@@ -752,6 +752,11 @@ p.speech {
 @media (max-width: 768px) {
   .row-95{
     display:block;
+    margin: 0;
+    width: 100%;
+  }
+  .col{
+    padding:0;
   }
   .m-order-2 {
     order: 2;
