@@ -327,7 +327,12 @@ ul li.title {
   background-image: url("../img/arrow-prev.svg");
 }
 
-
+.row-95{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 28px;
+}
 
 /*Animations*/
 
