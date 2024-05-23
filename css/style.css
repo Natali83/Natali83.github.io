@@ -407,6 +407,9 @@ span.line {
 section {
   padding: 2rem 0 2rem 0;
 }
+.proyect p{
+  margin-top: 20px;
+}
 .proyect h1 {
   color: #222;
   font-size: 3rem;
@@ -415,9 +418,8 @@ section {
   font-family: 'SF-medium';
   font-size: 30px;
   color: #1f1f1f;
-  letter-spacing: 0;
   margin-bottom: 1.2rem;
-  letter-spacing: 1px;
+  letter-spacing: .6px;
 }
 .proyect h3 {
   font-weight: 400;
@@ -456,6 +458,14 @@ ul li {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 150%;
+}
+
+.proyect ul.list-number{
+  list-style-type: decimal;
+  margin-top: 21px;
+}
+.proyect ul.list-number li{
+  padding-left: 10px;
 }
 .box-text {
   max-width: 100%;
