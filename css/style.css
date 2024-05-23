@@ -446,7 +446,7 @@ ul li {
     font-size: 1.2rem;
     color: #474747;
     line-height: 176%;
-    letter-spacing: 0.4px;
+    letter-spacing: .5px;
     margin-bottom: 4px;
 }
 .proyect ul li {
@@ -470,9 +470,7 @@ ul li {
   color: #888;
 }
 .proyect p strong {
-  font-family: SF-medium;
-  color: #444;
-  font-size: 1rem;
+  font-weight: bolder;
 }
 .proyect span {
   display: block;
