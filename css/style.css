@@ -532,6 +532,14 @@ ul li {
   display: flex;
   align-items: flex-end;
 }
+.captions{
+  color: #bebebe;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: Karla, sans-serif;
+  font-size: 14px;
+}
+
 .grow-2 {
   flex-grow: 2;
 }
@@ -776,7 +784,6 @@ p.speech {
     width: 100%;
   }
   .col{
-    padding:0;
   }
   .m-order-2 {
     order: 2;
