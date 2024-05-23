@@ -408,7 +408,6 @@ section {
   padding: 2rem 0 2rem 0;
 }
 .proyect p{
-  margin-top: 20px;
 }
 .proyect h1 {
   color: #222;
@@ -430,12 +429,11 @@ section {
   color: #f28a2a;
 }
 .proyect h4 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #222222;
   margin-bottom: 6px;
-  letter-spacing: .6px;
+  letter-spacing: .2px;
   font-family: SF-bold;
-  font-weight: bolder;
 }
 .proyect h5 {
   font-weight: 600;
@@ -586,7 +584,7 @@ ul li {
 .proyect-detail span {
   font-size: 13px;
   color: #444444;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.1px;
   line-height: 100%;
   font-family: SF-bold;
 }
@@ -596,6 +594,7 @@ ul li {
   color: #999;
   line-height: 180%;
   margin-top:0px;
+  letter-spacing: .1px;
 }
 .color-1 {
   background-color: #fdf4ea;
