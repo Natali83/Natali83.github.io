@@ -457,7 +457,13 @@ ul li {
   font-weight: 500;
   line-height: 150%;
 }
-
+.proyect p.captions{
+  color: #bebebe;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: Karla, sans-serif;
+  font-size: 14px;
+}
 .proyect ul.list-number{
   list-style-type: decimal;
   margin-top: 21px;
@@ -532,14 +538,6 @@ ul li {
   display: flex;
   align-items: flex-end;
 }
-.captions{
-  color: #bebebe;
-  text-align: center;
-  margin-bottom: 15px;
-  font-family: Karla, sans-serif;
-  font-size: 14px;
-}
-
 .grow-2 {
   flex-grow: 2;
 }
