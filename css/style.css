@@ -584,7 +584,6 @@ ul li {
   margin-top:20px;
 }
 .proyect-detail span {
-  font-weight: bold;
   font-size: 13px;
   color: #444444;
   letter-spacing: 0.6px;
@@ -596,6 +595,7 @@ ul li {
   font-size: 1rem;
   color: #999;
   line-height: 180%;
+  margin-top:0px;
 }
 .color-1 {
   background-color: #fdf4ea;
@@ -636,6 +636,7 @@ ul li {
 .mobile {
   display: none;
 }
+
 /*Grid Images*/
 .grid-image{
   
@@ -763,6 +764,9 @@ p.speech {
   }
 }
 @media (max-width: 768px) {
+  .pb-5, .py-5 {
+    padding-bottom: 2rem !important;
+  }
   .row-95{
     display:block;
     margin: 0;
@@ -811,23 +815,33 @@ p.speech {
   .bg-lets {
     background: #ebebeb;
   }
-  .container-fluid {
+  .container, .container-fluid {
     padding-right: 24px;
     padding-left: 24px;
   }
   .proyect p, ul li{
     font-size: 1.1rem;
-    letter-spacing: 0.3px;
+    letter-spacing: .2px;
+    margin-top: 0px;
+    line-height: 170%;
+  }
+  .proyect h2{
+    font-size: 24px;
+    letter-spacing: .2px;
   }
   .proyect h3 {
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 0.3px;
+    margin: 10px 4px 10px 0;
+    line-height: 26px;
+    padding-left: 18px;
+  }
+  .proyect h4{
+    font-size: 1.1rem;
+    letter-spacing: .2px;
   }
   .proyect h5 {
     font-size: 15px;
-  }
-  .proyect h2{
-    font-size:22px;
   }
 }
 @media (max-width: 600px) {
