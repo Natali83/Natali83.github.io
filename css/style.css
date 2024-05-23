@@ -823,8 +823,8 @@ p.speech {
     padding-left: 24px;
   }
   .proyect p, ul li{
-    font-size: 1.1rem;
-    letter-spacing: .2px;
+    font-size: 1rem;
+    letter-spacing: .1px;
     margin-top: 0px;
     line-height: 160%;
   }
