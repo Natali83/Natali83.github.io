@@ -414,7 +414,7 @@ section {
 .proyect h2 {
   font-family: 'SF-medium';
   font-size: 30px;
-  color: #222;
+  color: #1f1f1f;
   letter-spacing: 0;
   margin-bottom: 1.2rem;
   letter-spacing: 1px;
@@ -444,7 +444,7 @@ section {
 .proyect p,
 ul li {
     font-size: 1.2rem;
-    color: #333;
+    color: #474747;
     line-height: 176%;
     letter-spacing: 0.4px;
     margin-bottom: 4px;
