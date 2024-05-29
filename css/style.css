@@ -76,6 +76,12 @@ dl, ol, ul{
   border-left: 2px solid #f28a2a;
   padding-left: 30px;
 }
+.quote-2{
+    font-size: 1.4em;
+    font-style: italic;
+    line-height: 140%;
+    color: #666;
+}
 .navbar-brand {
   font-size: 1.6rem;
   font-weight: 900;
