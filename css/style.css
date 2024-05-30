@@ -75,6 +75,7 @@ dl, ol, ul{
 .quote{
   border-left: 2px solid #f28a2a;
   padding-left: 30px;
+  margin:22px 0px 28px !important;
 }
 .quote-2{
     font-size: 1.4em;
@@ -430,7 +431,7 @@ section {
   font-weight: 400;
   font-size: 26px;
   letter-spacing: 0.5px;
-  margin: 22px 0px 28px;
+  margin: 34px 0px;
   line-height: 36px;
   color: #f28a2a;
 }
