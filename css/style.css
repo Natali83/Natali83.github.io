@@ -427,11 +427,11 @@ section {
   font-size: 3rem;
 }
 .proyect h2 {
-  font-family: 'SF-medium';
-  font-size: 30px;
+  font-family: 'SF-semibold';
+  font-size: 2.1rem;
   color: #1f1f1f;
   margin-bottom: 1.2rem;
-  letter-spacing: .6px;
+  letter-spacing: .4px;
 }
 .proyect h3 {
   font-weight: 400;
@@ -540,11 +540,12 @@ ul li {
 }
 .name-proyect p{
   font-size: 1.4rem;
+  color: #747474;
 }
 .name-proyect h1 {
   font-weight: bold;
-  font-size: 3rem;
-  font-family: 'SF-semibold';
+  font-size: 3.2rem;
+  font-family: 'SF-bold';
 }
 .cont-img {
   height: 74%;
