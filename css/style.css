@@ -924,6 +924,6 @@ p.speech {
     bottom: -28vh;
   }
   .img-small{
-      max-width: 40%;
+      max-width: 100%;
   }
 }
