@@ -54,6 +54,9 @@ dl, ol, ul{
 .border{
   border: 1px solid #dedede;
 }
+.img-small{
+      max-width: 40%;
+}
 /*Index****
 **********************************************/
 .robotoSerif{
@@ -919,5 +922,8 @@ p.speech {
   }
   .lets .iphone {
     bottom: -28vh;
+  }
+  .img-small{
+      max-width: 40%;
   }
 }
