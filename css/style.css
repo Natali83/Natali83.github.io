@@ -49,7 +49,7 @@ img {
   margin: 5px 0 30px;
 }
 dl, ol, ul{
-  margin: 10px 0 10px -26px;
+  margin: 14px 0 10px -26px;
 }
 .border{
   border: 1px solid #dedede;
@@ -301,7 +301,7 @@ ul li.title {
 /*Carousel*/
 .carousel {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   width: 98%;
   margin-top: 20px;
 }
