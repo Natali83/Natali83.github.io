@@ -498,6 +498,7 @@ ul li {
 }
 .proyect p strong {
   font-weight: bolder;
+  color:#333;
 }
 .proyect span {
   display: block;
