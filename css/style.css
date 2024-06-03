@@ -60,23 +60,9 @@ img {
 }
 /*Index****
 **********************************************/
-.robotoSerif{
-  font-family: 'Roboto Serif', serif;
-  line-height: 1;
-}
-@font-face {
-  font-family: Yorkfont;
-  src: url(NewYorkExtraLarge-Bold.otf);
-}
 .main-font{
-  font-family: Yorkfont, serif;
+   font-family: SF-regular;
   line-height: 1;
-}
-.kalam {
-  line-height: 1;
-}
-.kalam span {
-  color: #517c83;
 }
 .quote{
   /* border-left: 2px solid #f28a2a;
