@@ -423,7 +423,7 @@ section {
 .proyect p{
 }
 .proyect h1 {
-  color: #222;
+  color: #111;
   font-size: 3rem;
 }
 .proyect h2 {
@@ -547,6 +547,7 @@ ul li {
   font-weight: bold;
   font-size: 3.2rem;
   font-family: 'SF-bold';
+  margin-bottom: 0;
 }
 .cont-img {
   height: 74%;
