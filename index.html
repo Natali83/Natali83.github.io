@@ -25,8 +25,6 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.css">
 	<!-- FONTS -->
-	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap"
-		rel="stylesheet">
 
 	<!-- ANIMATIONS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -34,176 +32,157 @@
 
 </head>
 
-<body>
-	<nav class="navbar navbar-expand-lg ">
-		<div class="container-fluid home">
-			<div class="nav">
-				<a class="navbar-brand main-font" href="./index.html">Nat</a>
-				<ul class="nav">
+<body class="body-home">
+	<div class="container cont-nav">
+		<nav class="navbar navbar-expand-lg ">
+			<div class="container-fluid home">
+				<div class="nav">
+					<a class="navbar-brand main-font" href="./index.html">Nat</a>
+				</div>
+
+				<ul class="nav redes">
+					
 					<li class="nav-item active">
 						<a class="nav-link" href="./NataliSalazar_Resume.pdf" target="_blank">Resume <span
 								class="sr-only">(current)</span></a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#works">Works</a>
-					</li>
-					<li class="nav-item">
+					<!--<li class="nav-item">
 						<a class="nav-link" href="#about">About</a>
-					</li>
+					</li>-->
+					<li><a target="_blank" href="mailto:natali.salazar@gmail.com" class="p-2 social-icon "><img
+							src="img/ico-mail.svg" alt="Mail"></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/natalisalazar/" class="p-2 social-icon "><img
+								src="img/ico-linkedin.svg" alt="Linkedin"></a></li>
 				</ul>
 			</div>
-
-			<ul class="nav redes">
-				<li><a target="_blank" href="https://www.linkedin.com/in/natalisalazar/" class="p-2 social-icon "><img
-							src="img/ico-linkedin.svg" alt="Linkedin"></a></li>
-			</ul>
-		</div>
-	</nav>
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-md-auto nat text-center pb-5">
-				<div class="timeline pb-5 mb-5 mt-4 my-5">
-					<img src="img/line.svg" alt="line" class="line">
-					<div class="point init">
-						<span alt="dot" class="dot"></span>
-						<span>2008</span>
-						<h3>Design | Research | Code</h3>
-					</div>
-					<div class="point">
-						<span alt="dot" class="dot"></span>
-						<span>2016</span>
-						<h3>User Experience</h3>
-					</div>
-				</div>
-				<h1 class="main-font mt-5 my-3 animate__animated animate__fadeInDown animate__slow">Hello!,<br>
-					I'm <span>Natali</span></h1>
-				<div class="info pl-2 animate__animated animate__fadeIn animate__delay-2s">
-					<p><i>Lifelong learner</i></p>
-					<p>Passionate about my work, striving to gain a comprehensive understanding of the problem to find more opportunities of actions.</p>
-					<p>Enthusiast to translate conceptualizations into tangible, real-world results.</p>
-					<p class="mt-5 animate__animated animate__fadeIn animate__delay-3s"></p>
+		</nav>
+	</div>
+	<div class="container top-header">
+		<div class="row">
+			<div class="col">
+				<h1 class="mb-5 animate__animated animate__fadeIn">Natali Salazar <span>Senior Product Designer</span></h1>
+				<p class="animate__animated animate__fadeInUp animate__slow"><strong>Blending people, design, and business.</strong><br>With over a decade of experience, I specialize in B2C solutions across various sectors. I'm passionate about contributing to a strategic, holistic vision and excel at prioritizing human-centric approaches that align users' needs with business goals.</p>
+			</div>
+			<div class="col animate__animated animate__fadeIn animate__delay-1s" style="align-self: flex-end;">
+				<div class="cont-skills">	
+					<ul class="soft-skill">
+						<li><span>Empathy</span></li>
+						<li><span>Positive Attitude</span></li>
+						<li><span>Bigger Picture Vision</span></li>
+						<li><span>Teamwork</span></li>
+						<li><span>Critical Thinking</span></li>
+						<li class="orange"><span>Forever Curious...</span></li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid mt-5 my-5 pt-5 border-divisor" id="works">
-		<h1 class="title row justify-content-center">Works</h1>
-		<h2 class="justify-content-center next" style="display:none;">Updates Underway!</h2>
-		<div class="project">
-			<div class="pro-media text-right">
-				<img src="img/undermoilen.png" alt="">
+	<div class="container-fluid mt-5 my-5 pt-5" id="works">
+		<h1 class="title row justify-content-center mb-3">My Journey Highlights</h1>
+		<p class="bajada">A timeline key milestones in my <strong>evolution</strong> as a Product Designer.</p>
+		<div class="container-fluid cont-projects mt-5">
+			<div class="project">
+				<a class="link-pro img-awake" href="UX-Awakening.html">
+					<div class="pro-content">
+						<span class="pro-date">2013-2014</span>
+						<h1>UX Awakening</h1>
+						<span class="sub">Business Online Banking</span>
+						<span class="rol">Rol: UX/UI Designer and Coder (HTML/CSS)</span>
+					</div>
+				</a>
+				<div class="pro-skills">
+					<ul class="hard-skill">
+						<li><span>Design System</span></li>
+						<li><span>Information Architecture</span></li>
+						<li><span>Documentation</span></li>
+						<li><span>Focus Group</span></li>
+					</ul>
+				</div>
 			</div>
-			<div class="pro-content">
-				<h1>Undermoilen<span class="sub">Mobile App Design</span></h1>
-				<p>
-					<span>About</span>
-					Create a trusted network of traveling friends to experience the world safely.
-				</p>
-				<p>
-					<span>Goal</span>
-					To be the first option for travelers who want to travel the world in a different way.
-				</p>
-				<span class="sub">Research, Analysis and Prototyping</span>
-				<a href="Undermoilen.html" class="button">View case study</a>
+
+			<div class="project">
+				<a class="link-pro img-crash" href="Crash-Course-in-Creativity.html">
+					<div class="pro-content">
+						<span class="pro-date">2019</span>
+						<h1>A Crash Course in Creativity</h1>
+						<span class="sub">Vehicle History Report</span>
+						<span class="rol">Rol: UX/UI Designer, Facilitator and Researcher.</span>
+					</div>
+				</a>
+				<div class="pro-skills">
+					<ul class="hard-skill">
+						<li><span>Design Sprint</span></li>
+						<li><span>Time Management</span></li>
+						<li><span>Journey Mapping</span></li>
+						<li><span>Problem-Solving</span></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+
+			<div class="project">
+				<a class="link-pro img-data" href="Designing-with-data.html">
+					<div class="pro-content">
+						<span class="pro-date">2016-2020</span>
+						<h1>Designing with Data</h1>
+						<span class="sub">Landing-pages</span>
+						<span class="rol">Role: UX/UI Designer, Collaborator</span>
+					</div>
+				</a>
+				<div class="pro-skills">
+					<ul class="hard-skill">
+						<li><span>Heatmaps</span></li>
+						<li><span>A/B Testing</span></li>
+						<li><span>Target Audience</span></li>
+						<li><span>Visual Hierarchy</span></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="project">
+				<a class="link-pro img-pixel" href="">
+					<div class="pro-content">
+						<span class="pro-date">2023</span>
+						<h1>Seeing Beyond Pixels</h1>
+						<span class="sub">Nursing Home Experience</span>
+						<span class="rol">Role: UX Designer and Researcher</span>
+					</div>
+				</a>
+				<div class="pro-skills">
+					<ul class="hard-skill">
+						<li><span>Service Design</span></li>
+						<li><span>Service Blue Print</span></li>
+						<li><span>Research and Analysis</span></li>
+						<li><span>Field studies</span></li>
+						<li><span>Interviews</span></li>
+					</ul>
+				</div>
 			</div>
 
 		</div>
-		<div class="project">
-			
-			<div class="pro-content">
-				<h1>VHR<span class="sub">Vehicle History Report Redesign</span></h1>
-				<p>
-					<span>About</span>
-					Leveraging the Design Sprint methodology to develop a prototype tailored to meet user expectations and needs.
-				</p>
-				<p>
-					<span>Goal</span>
-					Rapidly create a feasible alternative for Vehicle History Reports that enhances user experience and accessibility.
-				</p>
-				<span class="sub">Design Sprint, User Research, UX Design</span>
-				<a href="Crash-Course-in-Creativity.html" class="button">View case study</a>
-			</div>
-			<div class="pro-media m-order-2">
-				<img src="img/VHR.png" alt="Vehicle History Report">
-			</div>
-		</div>
-		
-		<div class="project">
-			<div class="pro-media text-right">
-				<img src="img/ecomeal.png" alt="">
-			</div>
-			<div class="pro-content">
-				<h1>Eco Meal<span class="sub">Ecommerce Website</span></h1>
-				<p>
-					<span>About</span>
-					Eco Meal (Meal Kit Service) is an e-commerce website for people who want to cook healthy and
-					varied
-					food, but optimizing their cooking time.
-				</p>
-				<p>
-					<span>Goal</span>
-					Innovating for Long-term growth.
-				</p>
-				<span class="sub">User Research, UX Design, UI Design</span>
-				<a href="ecomeal.html" class="button">View case study</a>
-			</div>
-			
-		</div>
-		
-		<div class="project" style="display:none;">
-			<div class="pro-content m-order-2">
-				<h1>Lets<span class="sub">Mobile App Design</span></h1>
-				<p>
-					<span>About</span>
-					Lets is a proposal on how to find a place in an exciting way.
-				</p>
-				<p>
-					<span>Goal</span>
-					Create a collaborative application, where the comments are a strong tool to find places.
-				</p>
-				<span class="sub">User Research, Interview, UX Design, UI Design</span>
-				<a href="lets.html" class="button">View case study</a>
-			</div>
-			<div class="pro-media text-left">
-				<img src="img/lets.png" alt="">
-			</div>
-		</div>
-		<div class="project" style="display:none;">
-			<div class="pro-media text-right">
-				<img src="img/vr_assistance.png" alt="">
-			</div>
-			<div class="pro-content">
-				<h1>VR Assistance<span class="sub">Whiteboard Challenge</span></h1>
-				<p>
-					<span>About</span>
-					Understand the needs of the users and the client to use virtual reality as a tool in a Hotel.
-				</p>
-				<p>
-					<span>Goal</span>
-					Apply design thinking to try to have a holistic view in one week.
-				</p>
-				<span class="sub">User Research, UX Design, UI Design</span>
-				<a href="VR_assistance.html" class="button">View case study</a>
-			</div>
-		</div>
-
 	</div>
-	<div class="container-fluid mt-5 my-5 pt-5 border-divisor" id="about">
-		<h1 class="title row justify-content-center flex-wrap">Natali Salazar <span class="down-text">Based
-				in
-				Argentina (GMT -3)</span>
-		</h1>
-		<div class="row justify-content-center pb-5">
-			<div class="col-md-auto nat about text-center pb-5">
-				<p>Driven by a constant pursuit of growth, I started as a web designer and evolved into a user experience designer. My curiosity has led me to delve into various spheres of design, technology, research, human behavior, service design, marketing and management, always seeking the knowledge necessary to address complex problems.</p>
-				<p>I'm seeking opportunities in UX design where I can contribute to the overall strategy and vision, focusing on the holistic user experience. Healthy work environment combined with an exciting challenges, where the company prioritizes human-centric approach, creating products that truly add value to people's lives.
-</p>
-				<ul class="nav redes pt-5">
-					<li><a target="_blank" href="https://www.linkedin.com/in/natalisalazar/"
-							class="p-2 social-icon "><img src="img/ico-linkedin.svg" alt="Linkedin"></a></li>
-				</ul>
+	<div class="container-fluid mt-5 my-5 pt-5" >
+		<h1 class="title row justify-content-center mb-3 pt-5">Lifelong Learner</h1>
+		<p class="bajada max-w40 pt-4">Driven by curiosity, I always love learning new things, constantly looking for ways to improve and expand my skills.		</p>
+		<div class="row justify-content-center pt-5 mt-4 pb-5">
+			<div class="cont-img learning pb-5 mb-5">
+				<div class="col"><img src="img/logo-uba.png" alt="UBA"><p>Degree in<br> Graphic Designer</p></div>
+				<div class="col"><a target="_blank" href="https://www.interaction-design.org/members/natali-salazar/certificate/course/6aeb09a4-82cd-4439-bb22-592cc29aec87"><img src="img/logo-idf.png" alt="Interaction Design Foundation"></a><p>User Research:<br>Methods and Best Practices</p></div>
+				<div class="col"><img src="img/logo-ideo.png" alt="IDEO U"><p>Human-centered<br>Service Design</p></div>
+				<div class="col"><img src="img/logo-CF.png" alt="Career Foundry"><p>Product Management<br>Immersion</p></div>
 			</div>
 		</div>
+	</div>
+	<div class="container-fluid mt-5 my-5 pt-5 pb-5 bg-gray">
+		<h2 class="title bold row justify-content-center mb-3">Get in touch!</h1>
+		<ul class="nav redes justify-content-center">
+			<li><a target="_blank" href="mailto:natali.salazar@gmail.com" class="p-2 social-icon "><img
+					src="img/ico-mail.svg" alt="Mail"></a></li>
+			<li><a target="_blank" href="https://www.linkedin.com/in/natalisalazar/" class="p-2 social-icon "><img
+						src="img/ico-linkedin.svg" alt="Linkedin"></a></li>
+		</ul>
+		<p class="pt-5 copy pb-4">Copyright © 2024 Natali Salazar. All Rights Reserved.</p>
 	</div>
 </body>
 
