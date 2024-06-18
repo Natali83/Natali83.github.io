@@ -28,26 +28,26 @@
 </head>
 
 <body class="proyect">
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-            <div class="nav">
-                <a class="navbar-brand kalam" href="./index.html">Nat</a>
-                <ul class="nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./NataliSalazar_Resume.pdf" target="_blank">Resume <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
+    <div class="container cont-nav">
+		<nav class="navbar navbar-expand-lg ">
+			<div class="container-fluid home">
+				<div class="nav">
+					<a class="navbar-brand main-font" href="./index.html">Nat</a>
+				</div>
 
-            <ul class="nav redes">
-                <li><a target="_blank" href="https://www.linkedin.com/in/natalisalazar/" class="p-2 social-icon "><img
-                            src="img/ico-linkedin.svg" alt="Linkedin"></a></li>
-                <li><a target="_blank" href="https://www.behance.net/dgnatali" class="p-2 social-icon "><img
-                            src="img/ico-be.svg" alt="Behance"></a></li>
-            </ul>
-        </div>
-    </nav>
+				<ul class="nav redes">
+					
+					<li class="nav-item active">
+						<a class="nav-link" href="./NataliSalazar_Resume.pdf" target="_blank">Resume </a>
+					</li>
+					<li><a target="_blank" href="mailto:natali.salazar@gmail.com" class="p-2 social-icon "><img
+							src="img/ico-mail.svg" alt="Mail"></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/natalisalazar/" class="p-2 social-icon "><img
+								src="img/ico-linkedin.svg" alt="Linkedin"></a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
     <div class="header-proyect layout-2 under">
         <div class="name-proyect">
             <h1>UX Awakening</h1>
@@ -64,7 +64,7 @@
             </div>
             <div class="col grow-2">
                 <span>Rol</span>
-                <p>Design, Documentation and Prototyping</p>
+                <p>UX/UI Designer and Coder (HTML/CSS)</p>
             </div>
             <div class="col">
                 <span>Country</span>
@@ -97,15 +97,15 @@
                     <li>Platform lacks consistent design and unified design system.</li>
                 </ul>
             </div>
-             <img class="mt-5" src="img/UX-Awakening/old-banking.png">
+             <img class="mt-3" src="img/UX-Awakening/old-banking.png">
             <p class="captions"><em>Screenshot of an outdated Online Business Banking interface.</em></p>
          </div>
     </section>
     <section class="container-fluid">
         <div class="paragraph-block paragraph-2">
-            <h2>The Challenge</h2>
+            <h5 class="mb-1">The Challenge</h5>
+            <h2>How might we reduce the contact channels while provide autonomy and privacy to online business management?</h2>
             <div class="box-text">
-                <h3 class="quote">How might we reduce the contact channels while provide autonomy and privacy to online business management?</h3>
                 <h5 class="mt-5">User Problem</h5>
                 <p>Users are unable to manage their finances independently without relying on multiple communication channels.<br>
 Struggling to complete their tasks due to uncertainty about how information is organized and displayed on the platform.</p>
@@ -130,11 +130,120 @@ Struggling to complete their tasks due to uncertainty about how information is o
     </section>
      <section class="container-fluid">
         <div class="paragraph-block">
-            <h2>Let's get started</h2>
+            <h2>Let's get started: Design System</h2>
             <div class="box-text">
+                <h4 class="mt-5 mb-3">Clear Layout</h4>
+                <p>The new layout establishes a hierarchy of content, prioritizing important information and directing user attention to key areas of the interface.</p>
+                <p>The information was scattered across the entire screen. We reorganized it into main groups and subgroups. We defined three sectors:</p>
+                    <ul class="list-decimal">
+                        <li><strong>Primary Navigation (Static Content)</strong></li>
+                        <li><strong>Dynamic Content Area</strong></li>
+                        <li><strong>User Account Details</strong></li>
+                    </ul>
+                <img class="mt-3" src="img/UX-Awakening/layout.png">
             </div>
+            <div class="box-text">
+                <h4 class="mt-5 mb-3">Information architecture: Menu intuitive, logical and accesible</h4>
+                <p>New menu was organised in a way that reflects the user's mental model, allowing them to easily anticipate where information is located and how to access it.
+                    We implementing a new labelling, categorization, and establishing a user-friendly navigation system that promotes seamless access to information.</p>
+                <img class="mt-4" src="img/UX-Awakening/menu-accordion.png">
+                <p class="captions"><em>Previous Accordion Menu Design</em></p> 
+                <img class="mt-4" src="img/UX-Awakening/menu-mega.png">
+                <p class="captions"><em>Updated Mega Menu Design</em></p> 
+                <p>Five advantage of usign Mega Menu:</p>
+                <ul class="list-decimal">
+                    <li><strong>Better Visibility:</strong> Mega menus show more options at once, making it easier to find information quickly.
+                    <li><strong>Improved User Experience:</strong> Users can navigate complex sites more easily with clear and structured content.</li>
+                    <li><strong>Better Organization:</strong> Mega menus can handle more categories, keeping content well-organized.</li>
+                    <li><strong>Increased Engagement:</strong> More visible options encourage users to explore more of the site.</li>
+                    <li><strong>Modern Look:</strong> Mega menus provide a cleaner, more professional appearance.</li>
+                    </li>
+                </ul>
+            </div>
+            <div class="box-text">
+                <h4 class="mt-5 mb-3">UI: Consistent and unified styles</h4>
+                <p>It was time to systematize and organize the different styles within the interface. Using brand definitions, I created new icons and elements to establish the visual language of the new design system.</p>
+                <img class="mt-4" src="img/UX-Awakening/styles.png">
+                <img class="mt-4" src="img/UX-Awakening/style-icons.png">
+                <p class="captions"><em>New cohesive set of icon designs.</em></p> 
+            </div>
+            <div class="box-text">
+                <h4 class="mt-5 mb-3">Banners and Notifications</h4>
+                <p>The banner was designed to display dynamic information. We established a character limit to effectively convey daily messages to users. Notifications were also designed according to our design principles. This approach was essential for maintaining consistency with our style guidelines and ensuring that our communications seamlessly integrate with the overall visual aesthetic.
+                </p>
+                <img class="mt-4 border" src="img/UX-Awakening/style-banners.png">
+            </div>
+            <div class="box-text">
+                <h4 class="mt-5 mb-3">Forms</h4>
+                <p>With the idea of atomic design methodology, I designed the different atoms that we can use to create more complex structures (Headings, subheadings, labels, dropdown menus, buttons, links, etc.). 
+                    This method gives us the flexibility to build to the needs of the site and also aligns with the design style guide.
+                </p>
+                <img class="mt-4 border" src="img/UX-Awakening/style-forms.png">
+            </div>
+            <div class="box-text">
+                <h4 class="mt-5 mb-3">Documentation</h4>
+                <p>To ensure seamless communication with the development team, creating documentation was the final, yet crucial, step. Design and code must coexist harmoniously.
+                </p>
+                <p>The style documentation ensures that all developers follow a consistent design. The team can consult the documentation and apply the established styles directly, speeding up the development process and improving efficiency.
+                </p>
+                <h2 class="mt-4">Designing, coding, and documenting all needed to be done concurrently. This simultaneous effort was challenging, but it taught me to think holistically.
+                </h2>
+                <iframe class="mt-5 border" src="img/UX-Awakening/2015-OfficeBanking-documentacion.pdf" style="width:100%; height:450px;" frameborder="0"></iframe>
+                <p class="captions"><em>Documentation Version 2.0 2015.</em></p> 
+            </div>
+            
         </div>
-    </section>
+</section>
+<section class="container-fluid">
+    <div class="paragraph-block">
+        <h2 class="mt-5">Launch Day: The Big Event</h2>
+    </div>
+    <div class="row align-items-start row-95">
+        <div class="col center">
+            <img class="img-max" style="max-width: 900px;" src="img/UX-Awakening/final-ux-screen.png">
+            <p class="captions"><em>Transfer Details Screen. 2014</em></p>
+        </div>
+    </div> 
+</section>
+ <section class="container-fluid">
+    <div class="paragraph-block">
+        <div class="box-text">
+            <p class="mb-3">After several months of designing, coding, and documenting, the big day finally arrived. Launch day was just the beginning of an exciting journey.
+            </p>
+            <p>I worked closely with two departments:</p>
+            <ul>
+                <li><strong>Marketing:</strong> This team provided valuable data about our users, helping us make informed decisions. They served as the voice of our users, supplying research information such as surveys, online comments, and phone call feedback. They managed all user feedback.</li>
+                <li><strong>Development:</strong> We worked side by side to ensure the design was implemented correctly. The ongoing documentation provided developers with the necessary information to continue with the entire migration process.
+                </li>
+            </ul>
+        </div>
+        <div class="box-text">
+            <h4 class="mt-5 mb-3">The Hit</h4>
+            <h2>Within a week of the launch, our customer support team received numerous complaints from long-time users who felt overwhelmed by the new app. </h2>
+            <p>We anticipated that this complete overhaul would be challenging for our users and expected they would need assistance. <strong>However, we were overwhelmed by the volume of complaints, which was a significant setback for us.</strong>
+            </p>
+        </div>
+        <div class="box-text">
+            <h4 class="mt-5 mb-3">Addressing the Problem</h4>
+            <p>Quick decisions had to be made. Our users' finances depend entirely on us, so to address the complaints, we decided to have the two systems coexist. This decision would give us the time to analyze and resolve the numerous issues expressed by users.</p>
+        </div>
+        <div class="box-text">
+            <h4 class="mt-5 mb-3">Learning from Mistakes</h4>
+            <p class="mb-5">Step by step, we began releasing video tutorials on how to use the app. At that time, it was more common for users to rely on the call center to address all their issues. After a couple of months, we learned a few crucial things:</p>
+            <ul>
+                <li class="mb-3">
+                    <strong>Enviroment matters:</strong> In 2013, the bank adopted focus groups as the main technique for listening to the voice of the user. After the big "hit," we understood the relevance of seeking new methods or techniques that address real needs. We truly grasped the importance of testing our product in the most realistic environment possible. 
+                </li>
+                <li class="mb-3">
+                    <strong>Finances. Evolving with Care:</strong> The application hadn't changed for many years, so it was crucial that each change came with an explanation to provide security and control to our users. While we initially allowed users to experiment with the new system, we realized that finances are a delicate issue and require a more controlled approach.
+                </li>
+                <li>
+                    <strong>What Users Say vs. What Users Do:</strong> We learned that what users say is not always what they do. We talked to users, showed them the new menu and link arrangements, and our selected users always agreed with us. However, in the real environment, with pressure, real needs, time constraints, and many years of seeing elements displayed in one way, it turned out to be a source of frustration for our users.
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 
    
    
@@ -143,6 +252,8 @@ Struggling to complete their tasks due to uncertainty about how information is o
          <div class="paragraph-block">
             <h2 class="mt-5">Iterate, Iterate and Iterate</h2>
              <div class="box-text">
+                <p>Context, users, behaviors—everything changes; nothing remains static. It's imperative to always stay close to the user's voice through listening, designing, and testing. Iteration is the best way to stay up-to-date with our users.</p>
+                <p class="mb-5">We continued learning for years, and this was <strong>my first introduction to the amazing and passionate world of User Experience.</strong></p>
              </div>
          </div>
     </section>
