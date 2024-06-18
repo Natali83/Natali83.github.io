@@ -268,6 +268,7 @@ ul li.title {
   flex-direction: column;
   justify-content: flex-start;
   box-sizing: border-box;
+  position: relative;
 }
 .project .pro-content {
   padding:6% 7% 0;
@@ -357,7 +358,15 @@ ul li.title {
 .link-pro.img-data:hover {
   background-color: #f6dff9;
 }
+.img-data.no-link:hover{
+  background-color: #FEF5FF;
+  cursor: default;
+}
 
+.link-pro.img-pixel.no-link:hover{
+  background-color: #FFFBF3;
+  cursor: default;
+}
 
 .img-pixel{
   background: #FFFBF3 url(../img/bg-beyond-pixel.png);
@@ -368,7 +377,25 @@ ul li.title {
 .link-pro.img-pixel:hover {
   background-color: #fff1d6;
 }
-
+.soon{
+  position: absolute;
+  display: block;
+  top: 36%;
+  left: calc(50% - 70px);
+  padding: 20px 40px;
+  border: 1px solid #000;
+  color: #000;
+  background: #fff;
+  border-radius: 4px;
+  font-family: 'SF-bold';
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+.no-link{
+  opacity: .4;
+}
 
 /*End link to proyect*/
 
