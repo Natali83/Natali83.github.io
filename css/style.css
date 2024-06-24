@@ -697,12 +697,17 @@ ul li {
   width: 100%;
 }
 .header-proyect.layout-2 {
-  height: 80vh;
+  height: auto;
   flex-direction: column;
   justify-content: flex-start;
 }
-.header-proyect.layout-2 img{
-  margin-bottom:0px;
+.header-proyect.layout-2.bg-report {
+  height: auto;
+}
+.header-proyect.layout-2.bg-report img {
+  margin-bottom: -80px;
+  max-width: 650px !important;
+  width: 60%;
 }
 .bg-report{
   background-image: url(../img/VHR/bg-reports.png);
@@ -900,7 +905,7 @@ ul li {
 .lets .iphone {
   position: absolute;
   bottom: -17vh;
-  left: cal(50vw - 203px);
+  left: calc(50vw - 203px);
   max-width: 406px;
 }
 .left-side {
@@ -968,9 +973,6 @@ p.speech {
   .left-side {
     top: 13vh;
     left: 5vw;
-  }
-  .header-proyect.layout-2.under {
-    height: 40vh;
   }
   .link-pro {
     height: 500px;
@@ -1124,9 +1126,8 @@ p.speech {
     display: block;
   }
   .lets .iphone {
-    right: auto;
-    max-height: 52vh;
-    max-width: 100%;
+    width: 70%;
+    left: calc(50vw - 35%);
   }
   .bg-lets {
     background: #ebebeb;
@@ -1214,7 +1215,10 @@ p.speech {
     font-size: 14px;
   }
   .header-proyect.layout-2 {
-    height: 50vh;
+    height: auto;
+  }
+  .header-proyect.layout-2.bg-report img {
+    margin-bottom: -40px;
   }
 }
 @media (max-width: 600px) {
@@ -1246,9 +1250,8 @@ p.speech {
   }
   .box-small img {
     max-width: 70%;
-}
+  }
   .name-proyect {
-    padding-bottom: 0px;
   }
   .nat h1 {
     font-size: 4rem;
