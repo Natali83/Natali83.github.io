@@ -417,7 +417,7 @@ ul li.title {
   background-color: #F2F2F2;
   display: flex;
   border-radius: 20px;
-  height: 280px;
+  max-height: 280px;
   width: 100%;
   position: relative;
   align-items: flex-end;
@@ -1208,6 +1208,10 @@ p.speech {
       text-align: center;
       margin: 0 auto;
   }
+  .more-projects p{
+    line-height: 120%;
+    font-size: 14px;
+  }
 }
 @media (max-width: 600px) {
   .project {
@@ -1229,8 +1233,13 @@ p.speech {
   .navbar .redes .social-icon img {
     max-width: 30px;
   }
-  .desk {
+  .more-projects{
+    flex-wrap: wrap;
+    width: 75%;
   }
+  .box-small img {
+    max-width: 70%;
+}
   .name-proyect {
     padding-bottom: 0px;
   }
