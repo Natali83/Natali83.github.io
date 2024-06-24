@@ -697,7 +697,7 @@ ul li {
   width: 100%;
 }
 .header-proyect.layout-2 {
-  height: 90vh;
+  height: 80vh;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -807,8 +807,8 @@ ul li {
 }
 .pos-s-2 {
   right: 25%;
-  bottom: 43vh;
-  max-width: 20%;
+  bottom: 20vh;
+  max-width: 12%;
   z-index: 100;
 }
 .pos-s-3 {
@@ -970,7 +970,7 @@ p.speech {
     left: 5vw;
   }
   .header-proyect.layout-2.under {
-    height: 70vh;
+    height: 40vh;
   }
   .link-pro {
     height: 500px;
@@ -1144,6 +1144,7 @@ p.speech {
   .proyect h2{
     font-size: 24px;
     letter-spacing: .2px;
+    line-height: 112%;
   }
   .proyect h3 {
     font-size: 20px;
@@ -1212,8 +1213,14 @@ p.speech {
     line-height: 120%;
     font-size: 14px;
   }
+  .header-proyect.layout-2 {
+    height: 50vh;
+  }
 }
 @media (max-width: 600px) {
+  .name-proyect h1 {
+    font-size: 1.6rem;
+  }
   .project {
     flex-direction: column;
     width: 100%;
@@ -1244,9 +1251,7 @@ p.speech {
     padding-bottom: 0px;
   }
   .mobile {
-    display: block;
-    max-height: 100%;
-    max-width: 90%;
+
   }
   .nat h1 {
     font-size: 4rem;
