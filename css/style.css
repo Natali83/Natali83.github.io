@@ -770,11 +770,11 @@ ul li {
   width: 80%;
 }
 .more-projects p{
-  font-size: 18px;
+  font-size: 16px;
     font-weight: 600;
     letter-spacing: .4px;
     color: #222;
-    margin-top: 20px;
+    margin-top: 12px;
 }
 .grow-2 {
   flex-grow: 2;
