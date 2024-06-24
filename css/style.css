@@ -57,6 +57,9 @@ img {
 .border{
   border: 1px solid #dedede;
 }
+.shadow{
+  box-shadow: 0 33px 50px -10px rgba(0, 0, 0, 0.17);
+}
 .img-small{
       max-width: 40%;
 }
@@ -225,6 +228,11 @@ img {
   margin-top: 8vh;
   color: #000;
 }
+.title-2{
+  font-size: 28px;
+  color: #000;
+  font-family: 'SF-bold';
+}
 .title.bold{
   font-family: 'SF-bold';
 }
@@ -330,7 +338,7 @@ ul li.title {
   color: transparent;
 }
 .img-crash{
-  background: #f2f2f2 url(../img/bg-crash-creativity.png);
+  background: #f2ecec url(../img/bg-crash-creativity.png);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 62%;
@@ -377,6 +385,15 @@ ul li.title {
 .link-pro.img-pixel:hover {
   background-color: #fff1d6;
 }
+.img-lets{
+  background: #fff3ea url(../img/bg-lets.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 98%;
+}
+.link-pro.img-lets:hover {
+  background-color: #fbe1ce;
+}
 .soon{
   position: absolute;
   display: block;
@@ -396,7 +413,23 @@ ul li.title {
 .no-link{
   opacity: .4;
 }
-
+.box-small{
+  background-color: #F2F2F2;
+  display: flex;
+  border-radius: 20px;
+  height: 280px;
+  width: 100%;
+  position: relative;
+  align-items: flex-end;
+  justify-content: center;
+  border: 1px solid #F2F2F2;
+}
+.box-small:hover{
+  border: 1px solid #cac9c9;
+}
+.box-small img{
+  max-width: 100%;
+}
 /*End link to proyect*/
 
 .about p {
@@ -484,10 +517,11 @@ ul li.title {
 }
 
 .row-95{
-  width: 95%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   line-height: 28px;
+  max-width: 1100px;
 }
 
 /*Animations*/
@@ -613,6 +647,8 @@ ul li {
   text-align: center;
   margin-bottom: 25px;
   font-size: 14px;
+  font-style: italic;
+  margin-top: 10px;
 }
 .proyect ul.list-number{
   list-style-type: decimal;
@@ -661,12 +697,25 @@ ul li {
   width: 100%;
 }
 .header-proyect.layout-2 {
-  height: auto;
+  height: 90vh;
   flex-direction: column;
   justify-content: flex-start;
 }
 .header-proyect.layout-2 img{
   margin-bottom:0px;
+}
+.bg-report{
+  background-image: url(../img/VHR/bg-reports.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+.top-img{
+  max-width: 640px !important;
+  width: 90%;
+}
+.header-proyect.max-80{
+  height: 80vh;
 }
 .header-img {
   max-height: 100%;
@@ -674,8 +723,9 @@ ul li {
   display: block;
 }
 .name-proyect {
-  padding-top: 80px;
+  padding-top: 20px;
   padding-bottom: 50px;
+  text-align: center;
 }
 .name-proyect p{
   font-size: 1.4rem;
@@ -709,6 +759,18 @@ ul li {
 .cont-img.learning .col img{
   max-height: 40px;
 }
+.more-projects{
+  align-items: baseline;
+  text-align: center;
+  width: 80%;
+}
+.more-projects p{
+  font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .4px;
+    color: #222;
+    margin-top: 20px;
+}
 .grow-2 {
   flex-grow: 2;
 }
@@ -725,17 +787,17 @@ ul li {
 .pos-1 {
   left: 12vw;
   top: 20%;
-  max-width: 30%;
+  max-width: 20%;
 }
 .pos-2 {
-  right: 20%;
+  right: 10%;
   top: 3vh;
-  max-width: 20%;
+  max-width: 12%;
 }
 .pos-3 {
   right: 10vw;
   bottom: 20%;
-  max-width: 16%;
+  max-width: 8%;
 }
 .pos-s-1 {
   left: 12vw;
@@ -824,11 +886,12 @@ ul li {
     180deg,
     #ffffff 0%,
     #fafafa 39%,
-    #d0d0d0 100%
+    #efdada 100%
   );
-  height: 65vh;
-  margin-bottom: 30vh;
+  height: 64vh;
+  margin-bottom: 15vh;
   overflow: inherit;
+  align-items: flex-start;
 }
 .bg-lets {
   background: #ebebeb url(../img/Lets/bg-problem-statement.png) no-repeat right
@@ -836,9 +899,9 @@ ul li {
 }
 .lets .iphone {
   position: absolute;
-  bottom: -32vh;
-  left: 50vw;
-  max-height: 95vh;
+  bottom: -17vh;
+  left: cal(50vw - 203px);
+  max-width: 406px;
 }
 .left-side {
   position: absolute;
@@ -846,16 +909,18 @@ ul li {
   text-align: left;
 }
 .left-side h1 {
+  /*
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.2px;
   padding-left: 10px;
-  padding-top: 20px;
+  padding-top: 20px;*/
 }
 .word {
+    /*
   display: flex;
   flex-flow: row;
-  align-items: baseline;
+  align-items: baseline;*/
 }
 .word img {
   padding-left: 12px;
@@ -898,17 +963,14 @@ p.speech {
     bottom: 31%;
   }
   .lets .iphone {
-    bottom: -24vh;
-    right: 0vw;
-    max-height: 55vh;
-    left: auto;
+
   }
   .left-side {
     top: 13vh;
     left: 5vw;
   }
   .header-proyect.layout-2.under {
-    height: auto;
+    height: 70vh;
   }
   .link-pro {
     height: 500px;
@@ -970,14 +1032,11 @@ p.speech {
     max-height: 100%;
   }
   .left-side {
-    transform: scale(0.6);
-    left: -22px;
-    top: 9vh;
+    left: 3vh;
+    top: 4vh;
   }
   .lets .iphone {
-    bottom: -24vh;
-    right: 2%;
-    max-height: 70vh;
+ 
   }
   .bg-lets {
     background: #ebebeb url(../img/Lets/bg-problem-statement.png) no-repeat 130%
@@ -1065,8 +1124,8 @@ p.speech {
     display: block;
   }
   .lets .iphone {
-    right: 0%;
-    max-height: 62vh;
+    right: auto;
+    max-height: 52vh;
     max-width: 100%;
   }
   .bg-lets {
@@ -1144,6 +1203,11 @@ p.speech {
     padding: 20px 0 !important;
     font-size: 12px;
   }
+  .prototype-small{
+      max-width: 320px !important;
+      text-align: center;
+      margin: 0 auto;
+  }
 }
 @media (max-width: 600px) {
   .project {
@@ -1166,7 +1230,9 @@ p.speech {
     max-width: 30px;
   }
   .desk {
-    display: none;
+  }
+  .name-proyect {
+    padding-bottom: 0px;
   }
   .mobile {
     display: block;
@@ -1198,9 +1264,25 @@ p.speech {
     bottom: 31%;
   }
   .lets .iphone {
-    bottom: -28vh;
+    bottom: -12vh;
+    max-height: 38vh;
+  }
+  .header-proyect.lets{
+    align-items: self-start;
+    padding-left: 0;
+    margin-left: 0;
+    justify-content: center;
+    height: 46vh;
+  }
+  .left-side {
+    left: 0;
+    top: 0;
+    position: relative;
   }
   .img-small{
       max-width: 100%;
+  }
+  .header-proyect.max-80 {
+    height: 40vh;
   }
 }
