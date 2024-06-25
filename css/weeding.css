@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya&display=swap');
+
+.sree-krushnadevaraya-regular{
+  font-family: "weeding-font", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container.top-header.top-wedding{
+  background-image: url(../weeding/IgnacioNatali.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  max-width: 100%;
+  justify-content: left;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-left: 5%;
+}
+.overlay{
+  background-color: #454545;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.center-text{
+  text-align: left;
+  text-shadow: 0 0 10px #0000004f;
+  max-width: 80%;
+  width: 640px;
+}
+.container.top-header.top-wedding h1{
+  font-family: "weeding-font", serif;
+  color:#fff;
+  margin: 0 !important;
+  font-size: 6rem;
+  line-height: 90%;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.container.top-header.top-wedding p{
+  color: #fff;
+  margin: 0 !important;
+  font-size: 1.5rem;
+  font-weight: 100;
+  letter-spacing: .7px;
+  text-transform: uppercase;
+}
+.weeding-detail{
+  text-align: center;
+}
+.body-weeding h2{
+  font-family: "weeding-font", serif;
+  font-size: 3rem;
+  color: #3f2f1b;
+}
+.body-weeding p{
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+a.weed{
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 10px 40px;
+  border-radius: 2px;
+  background-color: #f1dbda;
+  text-transform: uppercase;
+  letter-spacing: .7px;
+  color: #6f6260;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: all .4s ease-out;
+  text-decoration: none;
+  font-weight: 700;
+}
+a.weed:hover{
+  background-color: #ffec98;
+}
+.bg-1{
+  background-color: #f8f3e6;
+}
+.asis{
+
+  text-align: center;
+}
+/*Responsive****
+**********************************************/
+
+@media (max-width: 1199.98px) {
+  
+}
+@media (max-width: 768px) {
+  .container.top-header.top-wedding{
+    background-image: url(../weeding/IgnacioNatali-mobile.png);
+  }
+  .container.top-header.top-wedding h1{
+    font-size: 3rem;  
+  }
+  .container.top-header.top-wedding p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .container.top-header.top-wedding{
+    height: 80vh;
+  }
+  .weeding-detail .col-sm{
+    margin-bottom: 30px;
+  }
+  .center-text{
+    max-width: 70%;
+  }
+}
