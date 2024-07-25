@@ -66,6 +66,11 @@ img {
 .col.center{
   text-align: center;
 }
+.border-line{
+  padding: 3% !important;
+  border: 2px solid #444444;
+  border-radius: 2px;
+}
 /*Index****
 **********************************************/
 .body-home{
