@@ -66,10 +66,17 @@ img {
 .col.center{
   text-align: center;
 }
-.border-line{
+.border-outcomes{
   padding: 3% !important;
-  border: 2px solid #444444;
+  border: 2px solid #0070e9;
   border-radius: 2px;
+}
+.proyect .border-outcomes h2{
+  color: #0070e9;
+}
+.proyect .border-outcomes ul li{
+  margin-bottom: 15px;
+  line-height: 130%;
 }
 /*Index****
 **********************************************/
