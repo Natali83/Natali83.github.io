@@ -1105,6 +1105,9 @@ p.speech {
   .body-home .container > .row{
     flex-direction: column;
   }
+  .border-outcomes {
+    padding: 6% !important;
+  }
   .m-order-2 {
     order: 2;
   }
