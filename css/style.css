@@ -409,8 +409,8 @@ ul li.title {
 .img-ade{
   background: #EFF6FF url(../img/bg-ade.png);
   background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 98%;
+  background-position: center bottom;
+  background-size: 70%;
 }
 .link-pro.img-ade:hover {
   background-color: #D4E7FF;
