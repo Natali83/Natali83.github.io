@@ -406,6 +406,15 @@ ul li.title {
 .link-pro.img-lets:hover {
   background-color: #fbe1ce;
 }
+.img-ade{
+  background: #fff3ea url(../img/bg-ade.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 98%;
+}
+.link-pro.img-ade:hover {
+  background-color: #fbe1ce;
+}
 .soon{
   position: absolute;
   display: block;
