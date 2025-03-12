@@ -401,7 +401,7 @@ ul li.title {
   background: #fff3ea url(../img/bg-lets.png);
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 98%;
+  background-size: 90%;
 }
 .link-pro.img-lets:hover {
   background-color: #fbe1ce;
@@ -410,7 +410,7 @@ ul li.title {
   background: #EFF6FF url(../img/bg-ade.png);
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: 70%;
+  background-size: 78%;
 }
 .link-pro.img-ade:hover {
   background-color: #D4E7FF;
