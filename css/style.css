@@ -410,7 +410,7 @@ ul li.title {
   background: #EFF6FF url(../img/bg-ade.png);
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: 78%;
+  background-size: 65%;
 }
 .link-pro.img-ade:hover {
   background-color: #D4E7FF;
@@ -1014,7 +1014,9 @@ p.speech {
     text-align: left;
   }
   .sub {
-    font-size: 18px;
+    font-size: 14px;
+        line-height: 110% !important;
+        display: inline-block;
   }
   .rol{
     font-size: 14px;
@@ -1214,6 +1216,10 @@ p.speech {
   }
   .link-pro {
     height: 390px;
+  }
+  .img-ade{
+        background-position: right bottom;
+    background-size: 56%;
   }
   .navbar-brand {
     font-size: 20px;
