@@ -943,7 +943,7 @@ ul li {
     #fafafa 100%
   );
   height: 64vh;
-  margin-bottom: 15vh;
+  margin-bottom: 0;
   overflow: inherit;
   align-items: flex-start;
 }
