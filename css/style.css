@@ -947,6 +947,11 @@ ul li {
   overflow: inherit;
   align-items: flex-start;
 }
+.d-data .bg-data{
+    position: absolute;
+    bottom: -17vh;
+    left: calc(50vw - 203px);
+    max-width: 406px;}
 .word img {
   padding-left: 12px;
 }
