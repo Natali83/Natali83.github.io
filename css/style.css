@@ -331,6 +331,7 @@ ul li.title {
   display: block;
     color: #999;
     margin-top: 20px;
+      line-height: 140%;
 }
 .pro-media img {
   max-width: 100%;
