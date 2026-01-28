@@ -281,7 +281,7 @@ ul li.title {
   max-width: 1466px;
 }
 .project {
-  width: 50%;
+  width: 100%;
   display: flex;
   padding: 40px 10px;
   justify-content: center;
