@@ -291,8 +291,7 @@ ul li.title {
   position: relative;
 }
 .project .pro-content {
-  padding:6% 7% 0;
-  height: 245px;
+  padding:6% 8% 0 3%;
   box-sizing: border-box;
 }
 .pro-content p {
@@ -312,6 +311,8 @@ ul li.title {
   font-size: 30px;
   font-family: 'SF-bold';
   color: #222222;
+  line-height: 1.4;
+  padding-bottom: 10px;
 }
 .pro-date {
   display: block;
