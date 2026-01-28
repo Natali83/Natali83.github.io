@@ -408,7 +408,7 @@ ul li.title {
   background-color: #fbe1ce;
 }
 .img-ade{
-  background: #EFF6FF url(../img/bg-ade.png);
+  background-color: #EFF6FF;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 60%;
