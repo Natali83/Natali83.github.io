@@ -762,6 +762,7 @@ ul li {
   font-size: 3.2rem;
   font-family: 'SF-bold';
   margin-bottom: 0;
+  paddign:0 10px;
 }
 .name-proyect h1.title-mobile{
   display:none;
