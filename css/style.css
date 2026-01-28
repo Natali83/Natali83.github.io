@@ -344,6 +344,7 @@ ul li.title {
   align-items: center;
   border-radius: 20px;
   transition: all .2s ease-out;
+  display: flex;
 }
 .link-pro:hover {
   border: none;
