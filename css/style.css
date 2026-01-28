@@ -763,6 +763,9 @@ ul li {
   font-family: 'SF-bold';
   margin-bottom: 0;
 }
+.name-proyect h1.title-mobile{
+  display:none;
+}
 .cont-img {
   height: 74%;
   display: flex;
@@ -1088,6 +1091,12 @@ p.speech {
     margin-bottom: 40px;
     margin-top: 8px;
     font-size: 12px;
+  }
+   .name-proyect h1{
+     display:none;
+   }
+  .name-proyect h1.title-mobile{
+    display:block;
   }
 }
 @media (max-width: 768px) {
