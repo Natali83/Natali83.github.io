@@ -171,29 +171,80 @@
 	</section>
 	<section class="container-fluid">
 		 <div class="paragraph-block">
-			<h2>System Design & Scalability</h2>
-			<h4 class="mt-4">Design system as infrastructure</h4>
+			<h2>Designing Navigation as a System Decision (Not a UI Choice)</h2>
             <div class="box-text">
-				<p>A unified design system was created to:</p>
+				<p>In this project, navigation was not treated as a visual problem, but as a structural system decision.</p>
+				<p>The platform needed to support multiple business roles, each with different permissions, responsibilities, and usage frequency. The primary risk was not that users would “fail to find” an option, but that they would misunderstand which actions were available to them in a given context.
+				</p>
+				<p>Given the volume of functionality and the need to expose it without forcing deep, repetitive navigation paths, I evaluated multiple navigation approaches. We chose a mega menu not for aesthetic reasons, but because it allowed us to:</p>
 				<ul>
-					<li>standardize components, patterns, and behaviors</li>
-					<li>reduce ambiguity for engineering teams</li>
-					<li>support reuse across the platform</li>
-					<li>enable future scalability</li>
+					<li>Make the full system map visible at a glance</li>
+					<li>Reduce cognitive load for frequent, repeat tasks</li>
+					<li>Enable anticipation (“I know where things are before I search”)</li>
+					<li>Maintain consistency across roles without duplicating structures</li>
 				</ul>
-				<p>Atomic design principles guided the creation of flexible components that could adapt to different business scenarios without fragmentation.</p>
-            </div>
-			 <h4 class="mt-4">Documentation as a core deliverable</h4>
-            <div class="box-text">
-				<p>Documentation was treated as part of the system itself:</p>
-				<ul>
-					<li>design rules and patterns were clearly specified</li>
-					<li>engineers could implement confidently and consistently</li>
-					<li>design and code evolved together, reducing rework and delivery risk</li>
-				</ul>
-            </div>
+				<p>This decision prioritized clarity and predictability over apparent simplicity, based on the understanding that in enterprise financial systems, hiding complexity often increases risk rather than reducing it.
+				</p>            
+			</div>
         </div>
-</section>
+	</section>
+	<section class="container-fluid">
+		 <div class="paragraph-block">
+			<h2>Encoding Rules, Roles, and Permissions into the Interface</h2>
+            <div class="box-text">
+				<p>One of the core challenges was translating business rules and permission models into behaviors that users could clearly understand through the interface.
+				</p>
+				<p>The system needed to communicate, at all times:
+				</p>				
+				<ul>
+					<li>what each role could do</li>
+					<li>which information was available</li>
+					<li>when an action was not permitted — and why</li>
+				</ul>
+				<p>
+					Rather than delegating this logic exclusively to the backend or relying on error messages, I focused on making system rules visible through the UI itself—using states, visual hierarchy, repeated patterns, and consistent micro-decisions.
+				</p>
+				<p>This approach required:</p>
+				<ul>
+					<li>designing role-specific flows</li>
+					<li>defining clear states for available, restricted, and contextual actions</li>
+					<li>avoiding “surprises” during critical moments such as confirmations, submissions, and transfers</li>
+				</ul>
+				<p>The goal was not only to prevent errors, but to build trust, ensuring the system felt predictable, transparent, and under control—even in complex financial scenarios.
+				</p>
+			</div>
+        </div>
+	</section>
+	<section class="container-fluid">
+		 <div class="paragraph-block">
+			<h2>Documentation as a Scaling Mechanism (Not a Deliverable)</h2>
+            <div class="box-text">
+				<p>
+					Within a context of technological migration and tight timelines, documentation stopped being a final artifact and became an active part of the system.
+				</p>
+				<p>
+					As the sole designer on the project, designing, documenting, and implementing happened in parallel. This required treating documentation as a tool for alignment and scalability, rather than a formality.
+				</p>
+				<p>Documentation enabled us to:</p>
+				<ul>
+					<li>reduce ambiguity during implementation</li>
+					<li>ensure consistency across modules developed at different times</li>
+					<li>support system continuity beyond my direct involvement</li>
+				</ul>
+				<p>
+					Rather than describing screens, the documentation captured:
+				</p>
+				<ul>
+					<li>rules</li>
+					<li>decisions</li>
+					<li>reusable patterns</li>
+					<li>system boundaries</li>
+				</ul>
+				<p>
+					This experience shaped a way of working I still use today: designing systems that can survive over time, across team changes, and under evolving business demands.				</p>
+			</div>
+        </div>
+	</section>
 	<section class="container-fluid">
 		 <div class="paragraph-block">
 			<h2>Launch & Risk Management</h2>
