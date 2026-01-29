@@ -99,19 +99,21 @@ img {
 .container.top-header h1{
   font-family: 'SF-semibold';
   color: #000;
-  font-size: 70px;
+  font-size: 74px;
+  letter-spacing: -.9px;
 }
 .container.top-header h1 span{
   display: block;
   color: #f85a0d;
   font-family: 'SF-bold';
   font-size: 18px;
+  letter-spacing: 0;
 }
 .container.top-header p{
-  font-size: 18px;
+  font-size: 19px;
   color: #333333;
   line-height: 180%;
-  letter-spacing: .1px;
+  letter-spacing: -.1px;
   max-width: 100%;
 }
 .container.top-header p strong{
