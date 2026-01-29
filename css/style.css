@@ -373,13 +373,13 @@ font-size: 30px;
   color: transparent;
 }
 .img-crash{
-  background: #f2ecec url(../img/bg-crash-creativity.png);
+  background-color: #f2ecec;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 55%;
 }
 .link-pro.img-crash:hover {
-  background-color: #e4e4e4;
+  background-color: #f2dede;
 }
 
 .img-awake{
