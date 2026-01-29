@@ -291,7 +291,7 @@ ul li.title {
   position: relative;
 }
 .project .pro-content {
-  padding:6% 12% 0 3%;
+  padding:0 12% 0 3%;
   box-sizing: border-box;
 }
 .pro-content p {
