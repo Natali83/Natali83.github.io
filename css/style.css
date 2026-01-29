@@ -1239,7 +1239,7 @@ p.speech {
   .proyect-detail {
     display: flex;
     flex-direction: column;
-    margin-left:-15px;
+    margin-left:0;
   }
   .proyect-detail .col {
     flex-basis: auto;
