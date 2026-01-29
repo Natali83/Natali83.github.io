@@ -442,13 +442,12 @@ font-size: 30px;
   width:100%;
 }
 .bg-design-data{
-  background: #fff3ea;
+  background: #FEF5FF;
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 90%;
 }
 .link-pro.bg-design-data:hover {
-  background-color: #D4E7FF;
+   background-color: #f9dafd;
 }
 .soon{
   position: absolute;
