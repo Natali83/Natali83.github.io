@@ -398,9 +398,16 @@ font-size: 30px;
   background-position: right bottom;
   background-size: 80%;
 }
+.link-pro.img-data img{
+  width: 59%;
+}
 .link-pro.img-data:hover {
   background-color: #f6dff9;
 }
+.link-pro.img-data:hover img{
+   width: 70%;
+}
+
 .img-data.no-link:hover{
   background-color: #FEF5FF;
   cursor: default;
