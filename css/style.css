@@ -435,6 +435,10 @@ ul li.title {
 .link-pro.img-ade:hover {
   background-color: #D4E7FF;
 }
+.link-pro:hover img{
+  width:100%;
+}
+
 .soon{
   position: absolute;
   display: block;
@@ -720,6 +724,7 @@ ul li {
 }
 .col-sm img {
   max-width: 100%;
+  width: 80%;
 }
 /**/
 .header-proyect {
