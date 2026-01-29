@@ -125,11 +125,10 @@
         <div class="paragraph-block">
             <h2>Constraints</h2>
             <div class="box-text">
-                <p class="mt-4"><strong>Day of launch:</strong> The launch date aligned with specific business objectives, requiring collaboration across departments for a successful rollout in only 8 months.
-
-<p class="mt-3"><strong>One designer:</strong> Limited budget necessitated solo tackling of various challenges, including bias, redundancy, and lack of detailed refinement.</p>
-
-<p class="mt-3"><strong>Documentation:</strong> Crucial timing required dynamic and comprehensive documentation to facilitate efficient problem-solving by the development team.</p>
+                <p class="mt-4"><strong>Single designer</strong> responsible for UX, system logic, and documentation </p>
+				<p class="mt-3"><strong>Fixed launch deadline</strong> aligned with business objectives (8 months)</p>
+				<p class="mt-3"><strong>Highly regulated domain</strong>, with no tolerance for failure</p>
+				<p class="mt-3"><strong>Concurrent design, development, and documentation</strong> required to support migration</p>
             </div>
             
         </div>
@@ -160,68 +159,60 @@
     
      <section class="container-fluid">
         <div class="paragraph-block">
-            <h2>Let's get started: Design System</h2>
+			<h1>Approach</h1>
+            <h2>Designing for roles, permissions, and trust</h2>
             <div class="box-text">
-                <h4 class="mt-5 mb-3">Clear Layout</h4>
-                <p>The new layout establishes a hierarchy of content, prioritizing important information and directing user attention to key areas of the interface.</p>
-                <p>The information was scattered across the entire screen. We reorganized it into main groups and subgroups. We defined three sectors:</p>
-                    <ul class="list-decimal">
-                        <li><strong>Primary Navigation (Static Content)</strong></li>
-                        <li><strong>Dynamic Content Area</strong></li>
-                        <li><strong>User Account Details</strong></li>
+				<p>The redesign started by shifting focus from screens to system logic:</p>
+                    <ul>
+                        <li>Defining role-based workflows and permission boundaries</li>
+                        <li>Ensuring the right information and actions were visible to the right users</li>
+                        <li>Designing interactions that reinforced privacy, control, and accountability</li>
                     </ul>
                 <img class="mt-3" src="img/UX-Awakening/Layout.png">
             </div>
+		</div>
+		<div class="paragraph-block">
+			<h2>Information architecture as a foundation</h2>
             <div class="box-text">
-                <h4 class="mt-5 mb-3">Information architecture: Menu intuitive, logical and accesible</h4>
-                <p>New menu was organised in a way that reflects the user's mental model, allowing them to easily anticipate where information is located and how to access it.
-                    We implementing a new labelling, categorization, and establishing a user-friendly navigation system that promotes seamless access to information.</p>
+				<p>Information was reorganized into a clear structure:</p>
                 <img class="mt-4" src="img/UX-Awakening/menu-accordion.png">
                 <p class="captions"><em>Previous Accordion Menu Design</em></p> 
                 <img class="mt-4" src="img/UX-Awakening/menu-mega.png">
                 <p class="captions"><em>Updated Mega Menu Design</em></p> 
-                <p>Five advantage of usign Mega Menu:</p>
-                <ul class="list-decimal">
-                    <li><strong>Better Visibility:</strong> Mega menus show more options at once, making it easier to find information quickly.
-                    <li><strong>Improved User Experience:</strong> Users can navigate complex sites more easily with clear and structured content.</li>
-                    <li><strong>Better Organization:</strong> Mega menus can handle more categories, keeping content well-organized.</li>
-                    <li><strong>Increased Engagement:</strong> More visible options encourage users to explore more of the site.</li>
-                    <li><strong>Modern Look:</strong> Mega menus provide a cleaner, more professional appearance.</li>
-                    </li>
+                <ul>
+                    <li><strong>Primary navigation</strong> for stable, system-wide access</li>
+					<li><strong>Dynamic content areas</strong> eflecting context and role</li>
+					<li><strong>Account-specific details</strong> surfaced without overwhelming the interface</li>
                 </ul>
+				<p>This structure aligned the platform with users’ mental models, especially under time pressure.</p>
             </div>
+		</div>
+		 <div class="paragraph-block">
+			<h2>System Design & Scalability</h2>
             <div class="box-text">
-                <h4 class="mt-5 mb-3">UI: Consistent and unified styles</h4>
-                <p>It was time to systematize and organize the different styles within the interface. Using brand definitions, I created new icons and elements to establish the visual language of the new design system.</p>
                 <img class="mt-4" src="img/UX-Awakening/styles.png">
                 <img class="mt-4" src="img/UX-Awakening/style-icons.png">
                 <p class="captions"><em>New cohesive set of icon designs.</em></p> 
+				<img class="mt-4 border" src="img/UX-Awakening/style-banners.png">
             </div>
             <div class="box-text">
-                <h4 class="mt-5 mb-3">Banners and Notifications</h4>
-                <p>The banner was designed to display dynamic information. We established a character limit to effectively convey daily messages to users. Notifications were also designed according to our design principles. This approach was essential for maintaining consistency with our style guidelines and ensuring that our communications seamlessly integrate with the overall visual aesthetic.
-                </p>
-                <img class="mt-4 border" src="img/UX-Awakening/style-banners.png">
+                <h4 class="mt-5 mb-3">Design system as infrastructure</h4>
+				<p>A unified design system was created to:</p>
+				<ul>
+                    <li>standardize components, patterns, and behaviors</li>
+					<li>reduce ambiguity for engineering teams</li>
+					<li>support reuse across the platform</li>
+					<li>enable future scalability</li>
+				</ul>
+				<p>Atomic design principles guided the creation of flexible components that could adapt to different business scenarios without fragmentation.</p>
+				<h4 class="mt-5 mb-3">Documentation as a core deliverable</h4>
+				<p>Documentation was treated as part of the system itself:</p>
+				<ul>
+                    <li>design rules and patterns were clearly specified</li>
+					<li>engineers could implement confidently and consistently</li>
+					<li>design and code evolved together, reducing rework and delivery risk</li>
+				</ul>
             </div>
-            <div class="box-text">
-                <h4 class="mt-5 mb-3">Forms</h4>
-                <p>With the idea of atomic design methodology, I designed the different atoms that we can use to create more complex structures (Headings, subheadings, labels, dropdown menus, buttons, links, etc.). 
-                    This method gives us the flexibility to build to the needs of the site and also aligns with the design style guide.
-                </p>
-                <img class="mt-4 border" src="img/UX-Awakening/style-forms.png">
-            </div>
-            <div class="box-text">
-                <h4 class="mt-5 mb-3">Documentation</h4>
-                <p>To ensure seamless communication with the development team, creating documentation was the final, yet crucial, step. Design and code must coexist harmoniously.
-                </p>
-                <p>The style documentation ensures that all developers follow a consistent design. The team can consult the documentation and apply the established styles directly, speeding up the development process and improving efficiency.
-                </p>
-                <h2 class="mt-4">Designing, coding, and documenting all needed to be done concurrently. This simultaneous effort was challenging, but it taught me to think holistically.
-                </h2>
-                <iframe class="mt-5 border" src="img/UX-Awakening/2015-OfficeBanking-documentacion.pdf" style="width:100%; height:450px;" frameborder="0"></iframe>
-                <p class="captions"><em>Documentation Version 2.0 2015.</em></p> 
-            </div>
-            
         </div>
 </section>
 <section class="container-fluid">
