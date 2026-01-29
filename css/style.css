@@ -291,7 +291,7 @@ ul li.title {
   position: relative;
 }
 .project .pro-content {
-  padding:6% 8% 0 3%;
+  padding:6% 12% 0 3%;
   box-sizing: border-box;
 }
 .pro-content p {
@@ -327,6 +327,7 @@ ul li.title {
   color:#404040;
   font-size: 20px;
   font-family:'SF-medium';
+  line-height: 120%;
 }
 .rol{
   display: block;
