@@ -1059,13 +1059,13 @@ p.speech {
   .link-pro {
     height: 300px;
   }
-  .row-95{
+  .project .row-95{
     flex-direction: column-reverse;
   }
-  .row-95.cont-right{
+  .project .row-95.cont-right{
     flex-direction: column;
   }
-  .row-95 .col-sm{
+  .project .row-95 .col-sm{
     flex-basis: auto;
   }
   .hard-skill{
