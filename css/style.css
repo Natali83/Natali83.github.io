@@ -309,13 +309,17 @@ ul li.title {
 }
 .project .pro-content .button{
   padding: 10px 18px;
-    background-color: #ff6600;
+    background-color: #ff8448;
     color: #ffffff;
     margin: 19px 0;
     display: inline-block;
     border-radius: 22px;
     font-size: 15px;
     letter-spacing: .2px;
+    text-decoration: none;
+}
+.project .pro-content .button:hover{
+  background-color: #f85a0d;
 }
 .body-home .pro-content h1 {
   font-size: 30px;
