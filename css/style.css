@@ -372,16 +372,19 @@ font-size: 30px;
   outline: none;
   color: transparent;
 }
-.img-crash{
+.link-pro.img-crash{
   background-color: #f2ecec;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 55%;
+  align-items: end;
 }
 .link-pro.img-crash:hover {
   background-color: #f2dede;
 }
-
+.link-pro.img-crash img{
+  background-size: 88%;
+}
 .img-awake{
   background-color: #F6F7F1;
   background-repeat: no-repeat;
