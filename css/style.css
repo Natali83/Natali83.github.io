@@ -1057,7 +1057,27 @@ p.speech {
     left: 5vw;
   }
   .link-pro {
-    height: 500px;
+    height: 300px;
+  }
+  .row-95{
+    flex-direction: column-reverse;
+  }
+  .row-95 .col-sm{
+    flex-basis: auto;
+  }
+  .hard-skill{
+    margin-top: 5%;
+  }
+  .project .pro-content{
+    margin-top: 4%;
+    padding: 0 3%;
+  }
+  .col-sm img{
+    width: auto;
+    max-height: 100%;
+  }
+  .link-pro:hover img {
+    width: auto;
   }
 }
 @media (max-width: 900px) {
