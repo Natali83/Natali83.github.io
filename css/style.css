@@ -49,7 +49,7 @@ img {
   max-width: 98%;
 }
 .paragraph-block ul{
-  margin: 14px 0 10px -26px;
+  margin: 14px 0 10px auto;
 }
 .paragraph-block ul.list-decimal{
   list-style-type: decimal;
