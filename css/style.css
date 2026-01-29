@@ -1062,6 +1062,9 @@ p.speech {
   .row-95{
     flex-direction: column-reverse;
   }
+  .row-95.cont-right{
+    flex-direction: column;
+  }
   .row-95 .col-sm{
     flex-basis: auto;
   }
