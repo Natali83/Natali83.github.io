@@ -441,7 +441,15 @@ font-size: 30px;
 .link-pro:hover img{
   width:100%;
 }
-
+.bg-design-data{
+  background: #fff3ea;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 90%;
+}
+.link-pro.bg-design-data:hover {
+  background-color: #D4E7FF;
+}
 .soon{
   position: absolute;
   display: block;
