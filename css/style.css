@@ -393,7 +393,7 @@ font-size: 30px;
 }
 
 .img-data{
-  background: #FEF5FF url(../img/bg-design-data.png);
+  background-color: #FEF5FF;
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 80%;
