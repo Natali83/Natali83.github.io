@@ -703,7 +703,8 @@ ul li {
     margin-bottom: 15px;
 }
 .proyect ul li {
-  margin-bottom:0;
+    margin-bottom: 8px;
+    line-height: 116%;
 }
 .proyect p.quest {
   font-size: 1.6rem;
