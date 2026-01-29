@@ -1088,6 +1088,10 @@ p.speech {
   }
 }
 @media (max-width: 900px) {
+  .paragraph-block{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
   img.img-max{
     max-width: 98% !important;
   }
