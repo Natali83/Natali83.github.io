@@ -217,7 +217,7 @@ img {
   flex-wrap: wrap;
   max-width: 90%;
   justify-content: start;
-  margin-top: 20px;
+  margin-top: 10%;
 }
 .hard-skill li{
   background-image: url(../img/skill-check.svg);
@@ -227,10 +227,10 @@ img {
   background-color: #f2f2f2;
   border-radius: 8px;
   display: block;
-  padding:16px 13px 6px 34px;
+  padding:6px 13px 6px 34px;
   color: #777;
   font-family: 'SF-medium';
-  font-size: 12px;
+  font-size: 13px;
   margin: 4px 3px;
 }
 .title {
@@ -330,9 +330,10 @@ ul li.title {
 }
 .rol{
   display: block;
-    color: #999;
-    margin-top: 20px;
-      line-height: 140%;
+  color: #777;
+  margin-top: 20px;
+  line-height: 140%;
+  font-size: 16px;
 }
 .pro-media img {
   max-width: 100%;
