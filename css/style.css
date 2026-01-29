@@ -699,9 +699,8 @@ section {
 ul li {
     font-size: 1.1rem;
     color: #474747;
-    line-height: 160%;
-    letter-spacing: .1px;
-    margin-bottom: 4px;
+    line-height: 140%;
+    margin-bottom: 15px;
 }
 .proyect ul li {
   margin-bottom:0;
