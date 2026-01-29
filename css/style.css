@@ -307,6 +307,16 @@ ul li.title {
   margin-top: 10px;
   color: #222;
 }
+.project .pro-content .button{
+  padding: 10px 18px;
+    background-color: #ff6600;
+    color: #ffffff;
+    margin: 19px 0;
+    display: inline-block;
+    border-radius: 22px;
+    font-size: 15px;
+    letter-spacing: .2px;
+}
 .body-home .pro-content h1 {
   font-size: 30px;
   font-family: 'SF-bold';
