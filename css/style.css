@@ -1070,10 +1070,13 @@ p.speech {
   }
   .project .pro-content{
     margin-top: 4%;
-    padding: 0 3%;
+    padding: 0 3% !important;
+  }
+  .project .right .pro-skills{
+    padding:0;
   }
   .col-sm img{
-    width: auto;
+    width: auto !important;
     max-height: 90%;
     max-width: 70%;
   }
