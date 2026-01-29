@@ -381,7 +381,7 @@ font-size: 30px;
 }
 
 .img-awake{
-  background: #F6F7F1 url(../img/bg-ux-awakening.png);
+  background-color: #F6F7F1;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 70%;
