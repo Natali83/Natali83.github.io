@@ -348,6 +348,7 @@ ul li.title {
   border-radius: 20px;
   transition: all .2s ease-out;
   display: flex;
+  justify-content: center;
 }
 .link-pro:hover {
   border: none;
