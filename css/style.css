@@ -920,6 +920,9 @@ ul li {
 .color-1 {
   background-color: #fdf4ea;
 }
+.color-2 {
+    background-color: #e6e6e6;
+}
 .bg-ecomeal {
   background: #fdf4ea url(../img/Ecomeal/bg-problem-statement.png) no-repeat
     right top;
