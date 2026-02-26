@@ -224,17 +224,18 @@ img {
 }
 .hard-skill li{
   background-image: url(../img/skill-check.svg);
-  background-position: 14px center;
+  background-position: 10px center;
   background-repeat: no-repeat;
   text-align: left;
   border: 1px solid #e3e3e3;
   border-radius: 38px;
   display: block;
-  padding: 6px 16px 6px 34px;
+  padding: 6px 12px 6px 28px;
   color: #777;
   font-family: 'SF-medium';
   font-size: 13px;
   margin: 4px 3px;
+  background-size: 14px;
 }
 .title {
   font-size: 2rem;
