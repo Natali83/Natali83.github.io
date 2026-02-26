@@ -220,7 +220,7 @@ img {
   flex-wrap: wrap;
   max-width: 90%;
   justify-content: start;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 .hard-skill li{
   background-image: url(../img/skill-check.svg);
