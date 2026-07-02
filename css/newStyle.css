@@ -5,6 +5,8 @@ body {
   background: #fff;
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 /* ── NAV ─────────────────────────────────────────────── */
@@ -12,7 +14,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 48px;
+  padding: 20px 72px;
   border-bottom: 0.5px solid #e8e8e8;
   position: sticky;
   top: 0;
@@ -59,17 +61,17 @@ nav {
 .hero {
   display: grid;
   grid-template-columns: 1fr 340px;
-  min-height: 420px;
+  min-height: calc(100vh - 95px);
   border-bottom: 0.5px solid #e8e8e8;
   overflow: hidden;
   position: relative;
 }
 
 .hero-left {
-  padding: 64px 48px 64px;
+  padding: 72px 72px 72px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-end;
   gap: 0;
 }
 
@@ -113,7 +115,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 0 0 48px 0;
+  padding: 0 0 72px 0;
 }
 
 .selected-work {
@@ -185,7 +187,7 @@ nav {
 
 /* ── SHARED SECTION ──────────────────────────────────── */
 .section {
-  padding: 56px 48px;
+  padding: 56px 72px;
   border-bottom: 0.5px solid #e8e8e8;
 }
 
@@ -369,7 +371,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 48px;
+  padding: 20px 72px;
 }
 
 .footer-copy { font-size: 11px; color: #ccc; }
@@ -397,24 +399,24 @@ footer {
 
 /* ── RESPONSIVE ──────────────────────────────────────── */
 @media (max-width: 768px) {
-  nav { padding: 16px 24px; }
+  nav { padding: 16px 32px; }
 
   .hero {
     grid-template-columns: 1fr;
     min-height: auto;
   }
 
-  .hero-left { padding: 48px 24px 32px; }
+  .hero-left { padding: 48px 32px 32px; }
 
   .hero-name { font-size: 44px; }
   .hero-statement { font-size: 18px; }
 
-  .hero-right { padding: 0 24px 40px; }
+  .hero-right { padding: 0 32px 40px; }
   .selected-work { padding: 0; }
 
   .hero-photo-wrap { display: none; }
 
-  .section { padding: 40px 24px; }
+  .section { padding: 40px 32px; }
 
   .how-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
   .how-item { border-right: none; margin-right: 0; padding-right: 0; }
@@ -428,5 +430,6 @@ footer {
   .credential:nth-last-child(-n+2) { border-bottom: 0.5px solid #ebebeb; }
   .credential:last-child { border-bottom: none; }
 
-  footer { flex-direction: column; gap: 12px; padding: 20px 24px; text-align: center; }
+  footer { flex-direction: column; gap: 12px; padding: 20px 32px; text-align: center; }
 }
+
