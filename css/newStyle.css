@@ -194,7 +194,7 @@ nav {
 .section-label {
   font-size: 12px;
   font-weight: 600;
-  color: #ccc;
+  color: #b4b4b4;
   letter-spacing: 0.1em;
   margin-bottom: 32px;
 }
@@ -350,7 +350,7 @@ nav {
 
 /* ── FIELD NOTES / ANECDOTE ──────────────────────────── */
 .section-anecdote {
-  background: #fafafa;
+  background: #f2f2f2;
 }
 
 .anecdote-wrap {
