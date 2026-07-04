@@ -348,6 +348,72 @@ nav {
   line-height: 1.55;
 }
 
+/* ── FIELD NOTES / ANECDOTE ──────────────────────────── */
+.section-anecdote {
+  background: #fafafa;
+}
+
+.anecdote-wrap {
+  max-width: 560px;
+}
+
+.anecdote-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0a0a0a;
+  letter-spacing: -0.02em;
+  margin-bottom: 28px;
+  line-height: 1.1;
+}
+
+.anecdote-story p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+.anecdote-story p:last-child {
+  margin-bottom: 0;
+}
+
+.anecdote-staccato {
+  font-style: italic;
+  line-height: 2.1 !important;
+}
+
+.anecdote-quote {
+  font-style: italic;
+  color: #666 !important;
+  border-left: 2px solid #e0e0e0;
+  padding-left: 18px;
+  margin-left: 0;
+}
+
+.anecdote-reflection {
+  margin-top: 40px;
+  padding-top: 36px;
+  border-top: 0.5px solid #e8e8e8;
+}
+
+.anecdote-reflection-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: #ccc;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+.anecdote-reflection p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+.anecdote-reflection p:last-child {
+  margin-bottom: 0;
+}
 /* ── ARCHIVE ─────────────────────────────────────────── */
 .archive-list {
   list-style: none;
