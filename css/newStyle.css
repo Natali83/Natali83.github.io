@@ -146,7 +146,7 @@ nav {
 }
 
 .work-item:last-child { border-bottom: none; }
-.work-item:hover { opacity: 0.55; }
+.work-item:hover * { color: #ff6600; }
 
 .work-year {
   font-size: 10px;
