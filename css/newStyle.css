@@ -91,7 +91,7 @@ nav {
   color: #0a0a0a;
   line-height: 1.0;
   letter-spacing: -0.01em;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .hero-statement {
@@ -106,7 +106,7 @@ nav {
 
 .hero-body {
   font-size: 14px;
-  color: #666;
+  color: #555;
   line-height: 1.7;
   max-width: 380px;
 }
